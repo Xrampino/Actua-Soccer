@@ -1,0 +1,29 @@
+		if ( EUROgameType == EURO_championship )
+		{
+			if (  EUROmatchUsers > 1 )
+			{
+				Image_Heights[UBAR_PANL+Top] =	 PlrSetupPanelHght[ EUROmatchUsers ];
+
+		  		DrawIMAGE( &FrontendBackgroundDEFN, &FrontendTextureDEFN, 
+	  				UBAR_PANL+Top, 277, 131, NO_BOX, spritecopy );  	
+	  			DrawIMAGE( &FrontendBackgroundDEFN, &FrontendTextureDEFN, 
+		  			UBAR_PANL+Btm, 277, 131+(Image_Heights[UBAR_PANL+Top]), NO_BOX, spritecopy );  	
+
+				char	c = 0;
+
+		  		for ( char p=0; p < EUROnoOfMatchPlyrs; p ++ )
+				{
+					UserSetupList[p]	=	-1;
+
+					if ( p!=user )
+					{					
+						DisplayString( 406-(PixelLengthOfString( GetTEXT( PSET_LBLS+p ), SMALL_FONT) ) /2,
+							(131+19)+(c*23), 
+						     	( GetTEXT( PSET_LBLS+p )) , 
+							SMALL_FONT, 62, USER_SETUP_BOX+c, &FrontendBackgroundDEFN, &FrontendTextureDEFN  );
+						UserSetupList[c] =	p;
+					      	c++;
+					}
+				}
+			}
+		}		

@@ -1,0 +1,103 @@
+#info.lnk  (LINKER DIRECTIVE FILE)
+NAME test.exe
+OPTION MAP
+#OPTION QUIET
+DEBUG ALL
+FILE    test.obj
+FILE    menu.obj
+FILE    results.obj
+#FILE    video.obj
+FILE    unmangle.obj
+FILE    intronet.obj
+FILE    control.obj
+FILE    gamedata.obj
+
+FILE    euro_spt.obj
+FILE    euro_sqd.obj
+FILE    euro_fix.obj
+FILE    euro_sel.obj
+FILE    euro_gen.obj
+FILE    euro_inf.obj
+FILE    euro_dsk.obj
+FILE    euro_mem.obj
+FILE    euro_grf.obj
+FILE	euro_cnt.obj
+FILE	euro_usr.obj
+FILE	euro_mat.obj
+FILE	euro_win.obj
+FILE	euro_net.obj
+FILE	euro_mod.obj
+FILE	euro_cmd.obj
+FILE	euro_inp.obj
+#FILE	euro_gdv.obj
+FILE	euro_rnd.obj
+FILE    euro_var.obj
+FILE    euro_int.obj
+FILE    euro_fxd.obj
+
+FILE    football.obj
+FILE    mouse.obj
+FILE    editor.obj
+FILE    display.obj
+FILE    actions.obj
+FILE    ball.obj
+FILE    ballint.obj
+FILE    intell.obj
+FILE    maths.obj
+FILE    user.obj
+FILE    3d_upd2.obj
+FILE    rules.obj
+FILE    3deng.obj
+#FILE    3dblast.obj
+FILE    data.obj
+FILE    render.obj
+FILE    spritasm.obj
+FILE    keyh.obj
+FILE    vesa.obj
+FILE    my_audio.obj
+FILE    audio.obj
+FILE    random.obj
+FILE    network.obj
+FILE    ndebug.obj
+FILE    mallocx.obj
+
+FILE    apiin.obj
+
+libpath library
+library graph.lib
+library playdam.lib
+library debug.lib
+library sosdw1pr
+library sosmw1pr
+library audio.lib
+
+library netnowr.lib
+#library gsscomms.lib
+library gsscommw.lib
+library cglrw.lib
+#library c:\cgl\cglcdl.lib
+#library s3dtkwrr.lib
+
+library api.lib
+library board.lib
+library misc.lib
+library msg.lib
+library comms.lib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

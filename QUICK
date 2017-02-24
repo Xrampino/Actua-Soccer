@@ -1,0 +1,62 @@
+
+//********************************************************************************************************************************
+
+void	DoInjuriesAndMatchBans( char GAMEtype, char Team )
+	{
+		char	LastPlyr, Swapped;
+		short	PlyrIndex, Plyr;
+
+		if ( GAMEtype == EURO_championship )
+		{
+			LastPlyr = 19;
+			Swapped	 = 1;
+			
+			while	( Swapped !=0 )
+			{		
+
+				// **** Find A Spot At The End Of The Squad List For Player To Be Swapped Into ****
+
+				PlyrIndex =	NormalisePlayer( LastPlyr, Team );
+
+				if ( DiscPts[PlyrIndex] > 1 || Fitness[PlyrIndex] < Injured )
+				{
+				  LastPlyr--;
+				  if ( LastPlyr < 1 )	// **** checked all available players so bomb out and leave player 
+				    Swapped = 0;	//      were he is ****
+				}
+			
+				else
+
+
+				{			
+				  for ( char s=0; s < 11; s ++ )
+				  {
+				    Swapped = 0;
+				    PlyrIndex =	NormalisePlayer( s, Team );
+
+				    if ( DiscPts[PlyrIndex] > 1 || Fitness[PlyrIndex] < Injured )
+				    {
+				      char p = SquadInfo[ (Team*20)+s ];
+				      SquadInfo[ (Team*20)+s ] = SquadInfo[ (Team*20)+LastPlyr ];
+				      SquadInfo[ (Team*20)+LastPlyr ] =	p;
+				      Swapped = 1;
+										
+				// **** Was This An Ideal Swap ****					
+
+//				      if ( PlayerPosns[ (Team*20)+s ] != PlayerPosns[ (Team*20)+LastPlyr ] )
+//				      {
+//				      }
+
+
+
+
+				    }						
+				  }
+				}
+			}
+		}
+	}
+	
+//********************************************************************************************************************************
+
+

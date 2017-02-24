@@ -1,0 +1,3507 @@
+Link Index 2
+Commentary Mode 44
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Link Index 1
+Commentary Mode 44
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Link Index 0
+Commentary Mode 44
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+Link Index -1
+BASE   0x4f2b2    44022 C: AMBI2.WAV     
+BASE   0x59ec2    26055 C: AMBI4.WAV     
+BASE   0x604a2    40250 C: AMBI6.WAV     
+BASE   0x6a1f2    17516 C: AMBI8.WAV     
+BASE   0x6e672    55132 C: GOAL.WAV      
+BASE   0x7bde2    48080 C: C_MISS.WAV    
+BASE   0x879d2    62749 C: SAVE.WAV      
+ EXT  0x8f3004    48791 C: LAUGH.WAV     
+ EXT  0x8ff004    44458 C: C_FOWL.WAV    
+BASE   0x96f02    27148 C: RESTLESS.WAV  
+BASE   0x9d922     4106 C: LNGREF.WAV    
+BASE   0x9e942     1919 C: SHRTREF.WAV   
+BASE   0x9f0e2     1806 C: HRDKICK.WAV   
+BASE   0x9f802      939 C: KICK1.WAV     
+ EXT  0x90a004      864 C: PASS1.WAV     
+ EXT  0x90b004     1035 C: BOOT.WAV      
+ EXT  0x90c004      429 C: BOUNCE.WAV    
+ EXT  0x90d004     8237 C: FALL.WAV      
+ EXT  0x910004    20643 C: FULL.WAV      
+ EXT  0x916004    13318 C: HALF.WAV      
+
+ALLOCATE PITCH SAMPLES
+Base Memory Used	  329722 (  329722)
+Extended Memory Used	  137775 (  137775)
+Total Memory Used	  467497 (  467497)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x91a004    14030 e: E_USZTT.WAV   
+ EXT  0x91e004     5870 e: E_USX01.WAV   
+ EXT  0x920004     6570 e: E_USY01.WAV   
+ EXT  0x922004     7696 e: E_USZ01.WAV   
+ EXT  0x924004     6994 e: E_USX02.WAV   
+ EXT  0x926004     8760 e: E_USY02.WAV   
+ EXT  0x929004    10500 e: E_USZ02.WAV   
+ EXT  0x92c004     7397 e: E_USX03.WAV   
+ EXT  0x92e004     8337 e: E_USY03.WAV   
+ EXT  0x931004     8375 e: E_USZ03.WAV   
+ EXT  0x934004     7644 e: E_USX04.WAV   
+ EXT  0x936004     6960 e: E_USY04.WAV   
+ EXT  0x938004     8001 e: E_USZ04.WAV   
+ EXT  0x93a004     5922 e: E_USX05.WAV   
+ EXT  0x93c004     5642 e: E_USY05.WAV   
+ EXT  0x93e004     8496 e: E_USZ05.WAV   
+ EXT  0x941004     5670 e: E_USX06.WAV   
+ EXT  0x943004     5685 e: E_USY06.WAV   
+ EXT  0x945004     9300 e: E_USZ06.WAV   
+ EXT  0x948004     7077 e: E_USX07.WAV   
+ EXT  0x94a004     7056 e: E_USY07.WAV   
+ EXT  0x94c004     8360 e: E_USZ07.WAV   
+ EXT  0x94f004     6424 e: E_USX08.WAV   
+ EXT  0x951004     7984 e: E_USY08.WAV   
+ EXT  0x953004    10660 e: E_USZ08.WAV   
+ EXT  0x956004     7056 e: E_USX09.WAV   
+ EXT  0x958004     5689 e: E_USY09.WAV   
+ EXT  0x95a004     9758 e: E_USZ09.WAV   
+ EXT  0x95d004     6258 e: E_USX10.WAV   
+ EXT  0x95f004     5920 e: E_USY10.WAV   
+ EXT  0x961004    10400 e: E_USZ10.WAV   
+ EXT  0x964004     8294 e: E_USX11.WAV   
+ EXT  0x967004     8352 e: E_USY11.WAV   
+ EXT  0x96a004     9826 e: E_USZ11.WAV   
+
+ALLOCATE TEAM SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  266963 (  404738)
+Total Memory Used	  266963 (  734460)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x96d004     7690 e: E_RUZTT.WAV   
+ EXT  0x96f004     8625 e: E_RUX01.WAV   
+ EXT  0x972004     9984 e: E_RUY01.WAV   
+ EXT  0x975004     9743 e: E_RUZ01.WAV   
+ EXT  0x978004    10314 e: E_RUX04.WAV   
+ EXT  0x97b004    10872 e: E_RUY04.WAV   
+ EXT  0x97e004    11700 e: E_RUZ04.WAV   
+ EXT  0x981004     5793 e: E_RUX15.WAV   
+ EXT  0x983004     9702 e: E_RUY15.WAV   
+ EXT  0x986004     9901 e: E_RUZ15.WAV   
+ EXT  0x989004     9754 e: E_RUX14.WAV   
+ EXT  0x98c004     9784 e: E_RUY14.WAV   
+ EXT  0x98f004    15269 e: E_RUZ14.WAV   
+ EXT  0x993004     6951 e: E_RUX19.WAV   
+ EXT  0x995004     7611 e: E_RUY19.WAV   
+ EXT  0x997004     8512 e: E_RUZ19.WAV   
+ EXT  0x99a004     7104 e: E_RUX16.WAV   
+ EXT  0x99c004     7310 e: E_RUY16.WAV   
+ EXT  0x99e004     8043 e: E_RUZ16.WAV   
+ EXT  0x9a0004     9836 e: E_RUX06.WAV   
+ EXT  0x9a3004     8784 e: E_RUY06.WAV   
+ EXT  0x9a6004     9075 e: E_RUZ06.WAV   
+ EXT  0x9a9004     8661 e: E_RUX18.WAV   
+ EXT  0x9ac004     8450 e: E_RUY18.WAV   
+ EXT  0x9af004    11118 e: E_RUZ18.WAV   
+ EXT  0x9b2004     8708 e: E_RUX09.WAV   
+ EXT  0x9b5004    10032 e: E_RUY09.WAV   
+ EXT  0x9b8004    12673 e: E_RUZ09.WAV   
+ EXT  0x9bc004     8344 e: E_RUX10.WAV   
+ EXT  0x9bf004     9105 e: E_RUY10.WAV   
+ EXT  0x9c2004    12501 e: E_RUZ10.WAV   
+ EXT  0x9c6004     6966 e: E_RUX08.WAV   
+ EXT  0x9c8004     7299 e: E_RUY08.WAV   
+ EXT  0x9ca004     7084 e: E_RUZ08.WAV   
+
+ALLOCATE TEAM SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  313298 (  718036)
+Total Memory Used	  313298 ( 1047758)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x9cc004    20880 C: E_SPA03.WAV   
+ EXT  0x9d2004    36000 C: E_SPB04.WAV   
+ EXT  0x9db004    21454 C: E_SPC05.WAV   
+ EXT  0x9e1004    14007 C: E_SPF04.WAV   
+ EXT  0x9e5004    14931 C: E_SPD03.WAV   
+ EXT  0x9e9004     5548 C: E_FUA01.WAV   
+ EXT  0x9eb004    51547 C: E_FUB02.WAV   
+ EXT  0x9f8004    29811 C: E_FUC05.WAV   
+ EXT  0xa00004    24583 C: E_FUE05.WAV   
+ EXT  0xa07004    22050 C: E_FUF02.WAV   
+ EXT  0xa0d004    61731 C: E_FUG02.WAV   
+ EXT  0xa1d004    20001 C: E_DIV04.WAV   
+ EXT  0xa22004    15602 C: E_CPA06.WAV   
+ EXT  0xa26004    29576 C: E_CPB04.WAV   
+ EXT  0xa2e004    10519 C: E_CPC14.WAV   
+ EXT  0xa31004     9973 C: E_CPD01.WAV   
+ EXT  0xa34004     6930 C: E_CPE05.WAV   
+ EXT  0xa36004    11832 C: E_CPI05.WAV   
+ EXT  0xa39004    22971 C: E_FPA03.WAV   
+ EXT  0xa3f004    26532 C: E_FPB02.WAV   
+ EXT  0xa46004    16214 C: E_FPC07.WAV   
+ EXT  0xa4a004    25190 C: E_GLA23.WAV   
+ EXT  0xa51004    37240 C: E_GLB01.WAV   
+ EXT  0xa5b004    33008 C: E_GLC02.WAV   
+ EXT  0xa64004    42539 C: E_GLD08.WAV   
+ EXT  0xa6f004    43051 C: E_GLE09.WAV   
+ EXT  0xa7a004    46083 C: E_GLF07.WAV   
+ EXT  0xa86004    21840 C: E_GLG05.WAV   
+ EXT  0xa8c004    48759 C: E_GLH01.WAV   
+ EXT  0xa98004    21318 C: E_PMA09.WAV   
+ EXT  0xa9e004    20095 C: E_PMB11.WAV   
+ EXT  0xaa3004    44072 C: E_PMC12.WAV   
+ EXT  0xaae004    17400 C: E_PMD02.WAV   
+ EXT  0xab3004    28080 C: E_PME01.WAV   
+ EXT  0xaba004    13671 C: E_PMF02.WAV   
+
+ALLOCATE COMMENTARY SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  915038 ( 1633074)
+Total Memory Used	  915038 ( 1962796)
+Extra Memory Required	       0 (       0)
+
+ EXT  0xabe004    51759 C: E_MCA05.WAV   
+ EXT  0xacb004     6336 e: E_RUYTT.WAV   
+ EXT  0xacd004    20211 e: E_USXTT.WAV   
+Commentary Mode 44 LinkIndex 2 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+FREE  0xacd004    20211
+FREE  0xacb004     6336
+FREE  0xabe004    51759
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 10 Player Index 9
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 22 Player Index 10
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex 0 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+Commentary Mode 32 LinkIndex -1 Paused 0
+FREE  0xaa3004    44072
+ EXT  0xaa3004    25271 C: E_PMC07.WAV   
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+
+FREE COMMENTARY SAMPLES
+FREE  0xaba004    13671
+FREE  0xab3004    28080
+FREE  0xaae004    17400
+FREE  0xaa3004    25271
+FREE  0xa9e004    20095
+FREE  0xa98004    21318
+FREE  0xa8c004    48759
+FREE  0xa86004    21840
+FREE  0xa7a004    46083
+FREE  0xa6f004    43051
+FREE  0xa64004    42539
+FREE  0xa5b004    33008
+FREE  0xa51004    37240
+FREE  0xa4a004    25190
+FREE  0xa46004    16214
+FREE  0xa3f004    26532
+FREE  0xa39004    22971
+FREE  0xa36004    11832
+FREE  0xa34004     6930
+FREE  0xa31004     9973
+FREE  0xa2e004    10519
+FREE  0xa26004    29576
+FREE  0xa22004    15602
+FREE  0xa1d004    20001
+FREE  0xa0d004    61731
+FREE  0xa07004    22050
+FREE  0xa00004    24583
+FREE  0x9f8004    29811
+FREE  0x9eb004    51547
+FREE  0x9e9004     5548
+FREE  0x9e5004    14931
+FREE  0x9e1004    14007
+FREE  0x9db004    21454
+FREE  0x9d2004    36000
+FREE  0x9cc004    20880
+
+FREE TEAM SAMPLES
+FREE  0x9ca004     7084
+FREE  0x9c8004     7299
+FREE  0x9c6004     6966
+FREE  0x9c2004    12501
+FREE  0x9bf004     9105
+FREE  0x9bc004     8344
+FREE  0x9b8004    12673
+FREE  0x9b5004    10032
+FREE  0x9b2004     8708
+FREE  0x9af004    11118
+FREE  0x9ac004     8450
+FREE  0x9a9004     8661
+FREE  0x9a6004     9075
+FREE  0x9a3004     8784
+FREE  0x9a0004     9836
+FREE  0x99e004     8043
+FREE  0x99c004     7310
+FREE  0x99a004     7104
+FREE  0x997004     8512
+FREE  0x995004     7611
+FREE  0x993004     6951
+FREE  0x98f004    15269
+FREE  0x98c004     9784
+FREE  0x989004     9754
+FREE  0x986004     9901
+FREE  0x983004     9702
+FREE  0x981004     5793
+FREE  0x97e004    11700
+FREE  0x97b004    10872
+FREE  0x978004    10314
+FREE  0x975004     9743
+FREE  0x972004     9984
+FREE  0x96f004     8625
+FREE  0x96d004     7690
+
+FREE TEAM SAMPLES
+FREE  0x96a004     9826
+FREE  0x967004     8352
+FREE  0x964004     8294
+FREE  0x961004    10400
+FREE  0x95f004     5920
+FREE  0x95d004     6258
+FREE  0x95a004     9758
+FREE  0x958004     5689
+FREE  0x956004     7056
+FREE  0x953004    10660
+FREE  0x951004     7984
+FREE  0x94f004     6424
+FREE  0x94c004     8360
+FREE  0x94a004     7056
+FREE  0x948004     7077
+FREE  0x945004     9300
+FREE  0x943004     5685
+FREE  0x941004     5670
+FREE  0x93e004     8496
+FREE  0x93c004     5642
+FREE  0x93a004     5922
+FREE  0x938004     8001
+FREE  0x936004     6960
+FREE  0x934004     7644
+FREE  0x931004     8375
+FREE  0x92e004     8337
+FREE  0x92c004     7397
+FREE  0x929004    10500
+FREE  0x926004     8760
+FREE  0x924004     6994
+FREE  0x922004     7696
+FREE  0x920004     6570
+FREE  0x91e004     5870
+FREE  0x91a004    14030
+
+FREE PITCH SAMPLES
+FREE  0x916004    13318
+FREE  0x910004    20643
+FREE  0x90d004     8237
+FREE  0x90c004      429
+FREE  0x90b004     1035
+FREE  0x90a004      864
+FREE   0x9f802      939
+FREE   0x9f0e2     1806
+FREE   0x9e942     1919
+FREE   0x9d922     4106
+FREE   0x96f02    27148
+FREE  0x8ff004    44458
+FREE  0x8f3004    48791
+FREE   0x879d2    62749
+FREE   0x7bde2    48080
+FREE   0x6e672    55132
+FREE   0x6a1f2    17516
+FREE   0x604a2    40250
+FREE   0x59ec2    26055
+FREE   0x4f2b2    44022
+BASE   0x4f2b2    44022 C: AMBI2.WAV     
+BASE   0x59ec2    26055 C: AMBI4.WAV     
+BASE   0x604a2    40250 C: AMBI6.WAV     
+BASE   0x6a1f2    17516 C: AMBI8.WAV     
+BASE   0x6e672    55132 C: GOAL.WAV      
+BASE   0x7bde2    48080 C: C_MISS.WAV    
+BASE   0x879d2    62749 C: SAVE.WAV      
+ EXT  0x8f3004    48791 C: LAUGH.WAV     
+ EXT  0x8ff004    44458 C: C_FOWL.WAV    
+BASE   0x96f02    27148 C: RESTLESS.WAV  
+BASE   0x9d922     4106 C: LNGREF.WAV    
+BASE   0x9e942     1919 C: SHRTREF.WAV   
+BASE   0x9f0e2     1806 C: HRDKICK.WAV   
+BASE   0x9f802      939 C: KICK1.WAV     
+ EXT  0x90a004      864 C: PASS1.WAV     
+ EXT  0x90b004     1035 C: BOOT.WAV      
+ EXT  0x90c004      429 C: BOUNCE.WAV    
+ EXT  0x90d004     8237 C: FALL.WAV      
+ EXT  0x910004    20643 C: FULL.WAV      
+ EXT  0x916004    13318 C: HALF.WAV      
+
+ALLOCATE PITCH SAMPLES
+Base Memory Used	  329722 (  329722)
+Extended Memory Used	  137775 (  137775)
+Total Memory Used	  467497 (  467497)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x91a004     6684 e: E_ENZTT.WAV   
+ EXT  0x91c004     6066 e: E_ENX01.WAV   
+ EXT  0x91e004     5839 e: E_ENY01.WAV   
+ EXT  0x920004     7345 e: E_ENZ01.WAV   
+ EXT  0x922004     4640 e: E_ENX02.WAV   
+ EXT  0x924004     5760 e: E_ENY02.WAV   
+ EXT  0x926004     5764 e: E_ENZ02.WAV   
+ EXT  0x928004     6228 e: E_ENX03.WAV   
+ EXT  0x92a004     6902 e: E_ENY03.WAV   
+ EXT  0x92c004    10064 e: E_ENZ03.WAV   
+ EXT  0x92f004     5770 e: E_ENX04.WAV   
+ EXT  0x931004     7396 e: E_ENY04.WAV   
+ EXT  0x933004     9963 e: E_ENZ04.WAV   
+ EXT  0x936004     7150 e: E_ENX05.WAV   
+ EXT  0x938004     7095 e: E_ENY05.WAV   
+ EXT  0x93a004     9409 e: E_ENZ05.WAV   
+ EXT  0x93d004     5480 e: E_ENX06.WAV   
+ EXT  0x93f004     7128 e: E_ENY06.WAV   
+ EXT  0x941004    11324 e: E_ENZ06.WAV   
+ EXT  0x944004     5752 e: E_ENX07.WAV   
+ EXT  0x946004     8385 e: E_ENY07.WAV   
+ EXT  0x949004     8296 e: E_ENZ07.WAV   
+ EXT  0x94c004     3294 e: E_ENX08.WAV   
+ EXT  0x94d004     4632 e: E_ENY08.WAV   
+ EXT  0x94f004     6140 e: E_ENZ08.WAV   
+ EXT  0x951004     4820 e: E_ENX09.WAV   
+ EXT  0x953004     7065 e: E_ENY09.WAV   
+ EXT  0x955004    13200 e: E_ENZ09.WAV   
+ EXT  0x959004     4560 e: E_ENX10.WAV   
+ EXT  0x95b004     5541 e: E_ENY10.WAV   
+ EXT  0x95d004     4326 e: E_ENZ10.WAV   
+ EXT  0x95f004     5463 e: E_ENX11.WAV   
+ EXT  0x961004     7123 e: E_ENY11.WAV   
+ EXT  0x963004     8285 e: E_ENZ11.WAV   
+
+ALLOCATE TEAM SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  232889 (  370664)
+Total Memory Used	  232889 (  700386)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x966004     6975 e: E_BZZTT.WAV   
+ EXT  0x968004     7241 e: E_BZX01.WAV   
+ EXT  0x96a004     7006 e: E_BZY01.WAV   
+ EXT  0x96c004     8775 e: E_BZZ01.WAV   
+ EXT  0x96f004     7608 e: E_BZX02.WAV   
+ EXT  0x971004     9586 e: E_BZY02.WAV   
+ EXT  0x974004    11609 e: E_BZZ02.WAV   
+ EXT  0x977004     7322 e: E_BZX03.WAV   
+ EXT  0x979004     8294 e: E_BZY03.WAV   
+ EXT  0x97c004     8359 e: E_BZZ03.WAV   
+ EXT  0x97f004    13112 e: E_BZX04.WAV   
+ EXT  0x983004    13790 e: E_BZY04.WAV   
+ EXT  0x987004    16135 e: E_BZZ04.WAV   
+ EXT  0x98b004    13860 e: E_BZX05.WAV   
+ EXT  0x98f004    14048 e: E_BZY05.WAV   
+ EXT  0x993004    15147 e: E_BZZ05.WAV   
+ EXT  0x997004     5580 e: E_BZX06.WAV   
+ EXT  0x999004     5580 e: E_BZY06.WAV   
+ EXT  0x99b004     7051 e: E_BZZ06.WAV   
+ EXT  0x99d004     4512 e: E_BZX07.WAV   
+ EXT  0x99f004     5780 e: E_BZY07.WAV   
+ EXT  0x9a1004     6934 e: E_BZZ07.WAV   
+ EXT  0x9a3004     6039 e: E_BZX08.WAV   
+ EXT  0x9a5004     6902 e: E_BZY08.WAV   
+ EXT  0x9a7004     9933 e: E_BZZ08.WAV   
+ EXT  0x9aa004     7141 e: E_BZX09.WAV   
+ EXT  0x9ac004     8398 e: E_BZY09.WAV   
+ EXT  0x9af004    10241 e: E_BZZ09.WAV   
+ EXT  0x9b2004     5754 e: E_BZX10.WAV   
+ EXT  0x9b4004     8520 e: E_BZY10.WAV   
+ EXT  0x9b7004     7140 e: E_BZZ10.WAV   
+ EXT  0x9b9004     8941 e: E_BZX11.WAV   
+ EXT  0x9bc004     8534 e: E_BZY11.WAV   
+ EXT  0x9bf004     9792 e: E_BZZ11.WAV   
+
+ALLOCATE TEAM SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  301639 (  672303)
+Total Memory Used	  301639 ( 1002025)
+Extra Memory Required	       0 (       0)
+
+ EXT  0x9c2004    20880 C: E_SPA03.WAV   
+ EXT  0x9c8004     9699 C: E_SPB03.WAV   
+ EXT  0x9cb004    11772 C: E_SPC03.WAV   
+ EXT  0x9ce004    13965 C: E_SPF01.WAV   
+ EXT  0x9d2004    57812 C: E_SPD08.WAV   
+ EXT  0x9e1004    27863 C: E_FUA07.WAV   
+ EXT  0x9e8004    29750 C: E_FUB04.WAV   
+ EXT  0x9f0004    13840 C: E_FUC12.WAV   
+ EXT  0x9f4004    24583 C: E_FUE05.WAV   
+FAIL         1* C: E_FUF01.WAV    
+ EXT  0x9fb004    28431 C: E_FUG01.WAV   
+ EXT  0xa02004    28489 C: E_DIV01.WAV   
+ EXT  0xa09004    35186 C: E_CPA01.WAV   
+FAIL         1* C: E_CPB01.WAV    
+ EXT  0xa12004     7152 C: E_CPC04.WAV   
+ EXT  0xa14004     9973 C: E_CPD01.WAV   
+ EXT  0xa17004     6930 C: E_CPE05.WAV   
+ EXT  0xa19004    11832 C: E_CPI05.WAV   
+ EXT  0xa1c004    22971 C: E_FPA03.WAV   
+ EXT  0xa22004    26532 C: E_FPB02.WAV   
+ EXT  0xa29004    24723 C: E_FPC08.WAV   
+ EXT  0xa30004    28392 C: E_GLA29.WAV   
+ EXT  0xa37004    40703 C: E_GLB05.WAV   
+ EXT  0xa41004    33008 C: E_GLC02.WAV   
+ EXT  0xa4a004    37900 C: E_GLD06.WAV   
+ EXT  0xa54004    43051 C: E_GLE09.WAV   
+ EXT  0xa5f004    40322 C: E_GLF08.WAV   
+ EXT  0xa69004    32758 C: E_GLG06.WAV   
+ EXT  0xa71004    36011 C: E_GLH03.WAV   
+ EXT  0xa7a004    25060 C: E_PMA10.WAV   
+ EXT  0xa81004    15375 C: E_PMB12.WAV   
+ EXT  0xa85004    29289 C: E_PMC15.WAV   
+ EXT  0xa8d004    18216 C: E_PMD05.WAV   
+ EXT  0xa92004    24592 C: E_PME05.WAV   
+ EXT  0xa99004    11680 C: E_PMF01.WAV   
+
+ALLOCATE COMMENTARY SAMPLES
+Base Memory Used	       0 (  329722)
+Extended Memory Used	  828740 ( 1501043)
+Total Memory Used	  828740 ( 1830765)
+Extra Memory Required	       0 (       0)
+
+ EXT  0xa9c004    65259 C: E_MCA01.WAV   
+ EXT  0xaac004     7986 e: E_BZYTT.WAV   
+ EXT  0xaae004    25920 e: E_ENXTT.WAV   
+Commentary Mode 44 LinkIndex 2 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 1 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+FREE  0xaae004    25920
+FREE  0xaac004     7986
+FREE  0xa9c004    65259
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 10 Player Index 9
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 7 Player Index 6
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 21 Player Index 9
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 15 Player Index 3
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 17 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 2 Player Index 1
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 4 Player Index 3
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 6 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 10 Player Index 9
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 17 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 17 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 8 Player Index 7
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 5 Player Index 4
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 17 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 16 Player Index 4
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 9 Player Index 8
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+ EXT  0xa9c004    13160 C: E_OTB06.WAV   
+Commentary Mode 44 LinkIndex 0 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+Commentary Mode 44 LinkIndex -1 Paused 0
+FREE  0xa9c004    13160
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 10 Player Index 9
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex 0 Paused 0
+Commentary Mode 31 LinkIndex 0 Paused 0
+Commentary Mode 31 LinkIndex 0 Paused 0
+Commentary Mode 31 LinkIndex 0 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+FREE  0xa81004    15375
+ EXT  0xa9c004    30693 C: E_PMB13.WAV   
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 6 Player Index 5
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Player 7 Player Index 6
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 0 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex 0 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+Commentary Mode 31 LinkIndex -1 Paused 0
+
+FREE COMMENTARY SAMPLES
+FREE  0xa99004    11680
+FREE  0xa92004    24592
+FREE  0xa8d004    18216
+FREE  0xa85004    29289
+FREE  0xa9c004    30693
+FREE  0xa7a004    25060
+FREE  0xa71004    36011
+FREE  0xa69004    32758
+FREE  0xa5f004    40322
+FREE  0xa54004    43051
+FREE  0xa4a004    37900
+FREE  0xa41004    33008
+FREE  0xa37004    40703
+FREE  0xa30004    28392
+FREE  0xa29004    24723
+FREE  0xa22004    26532
+FREE  0xa1c004    22971
+FREE  0xa19004    11832
+FREE  0xa17004     6930
+FREE  0xa14004     9973
+FREE  0xa12004     7152
+FREE         0        0
+FREE  0xa09004    35186
+FREE  0xa02004    28489
+FREE  0x9fb004    28431
+FREE         0        0
+FREE  0x9f4004    24583
+FREE  0x9f0004    13840
+FREE  0x9e8004    29750
+FREE  0x9e1004    27863
+FREE  0x9d2004    57812
+FREE  0x9ce004    13965
+FREE  0x9cb004    11772
+FREE  0x9c8004     9699
+FREE  0x9c2004    20880
+
+FREE TEAM SAMPLES
+FREE  0x9bf004     9792
+FREE  0x9bc004     8534
+FREE  0x9b9004     8941
+FREE  0x9b7004     7140
+FREE  0x9b4004     8520
+FREE  0x9b2004     5754
+FREE  0x9af004    10241
+FREE  0x9ac004     8398
+FREE  0x9aa004     7141
+FREE  0x9a7004     9933
+FREE  0x9a5004     6902
+FREE  0x9a3004     6039
+FREE  0x9a1004     6934
+FREE  0x99f004     5780
+FREE  0x99d004     4512
+FREE  0x99b004     7051
+FREE  0x999004     5580
+FREE  0x997004     5580
+FREE  0x993004    15147
+FREE  0x98f004    14048
+FREE  0x98b004    13860
+FREE  0x987004    16135
+FREE  0x983004    13790
+FREE  0x97f004    13112
+FREE  0x97c004     8359
+FREE  0x979004     8294
+FREE  0x977004     7322
+FREE  0x974004    11609
+FREE  0x971004     9586
+FREE  0x96f004     7608
+FREE  0x96c004     8775
+FREE  0x96a004     7006
+FREE  0x968004     7241
+FREE  0x966004     6975
+
+FREE TEAM SAMPLES
+FREE  0x963004     8285
+FREE  0x961004     7123
+FREE  0x95f004     5463
+FREE  0x95d004     4326
+FREE  0x95b004     5541
+FREE  0x959004     4560
+FREE  0x955004    13200
+FREE  0x953004     7065
+FREE  0x951004     4820
+FREE  0x94f004     6140
+FREE  0x94d004     4632
+FREE  0x94c004     3294
+FREE  0x949004     8296
+FREE  0x946004     8385
+FREE  0x944004     5752
+FREE  0x941004    11324
+FREE  0x93f004     7128
+FREE  0x93d004     5480
+FREE  0x93a004     9409
+FREE  0x938004     7095
+FREE  0x936004     7150
+FREE  0x933004     9963
+FREE  0x931004     7396
+FREE  0x92f004     5770
+FREE  0x92c004    10064
+FREE  0x92a004     6902
+FREE  0x928004     6228
+FREE  0x926004     5764
+FREE  0x924004     5760
+FREE  0x922004     4640
+FREE  0x920004     7345
+FREE  0x91e004     5839
+FREE  0x91c004     6066
+FREE  0x91a004     6684
+
+FREE PITCH SAMPLES
+FREE  0x916004    13318
+FREE  0x910004    20643
+FREE  0x90d004     8237
+FREE  0x90c004      429
+FREE  0x90b004     1035
+FREE  0x90a004      864
+FREE   0x9f802      939
+FREE   0x9f0e2     1806
+FREE   0x9e942     1919
+FREE   0x9d922     4106
+FREE   0x96f02    27148
+FREE  0x8ff004    44458
+FREE  0x8f3004    48791
+FREE   0x879d2    62749
+FREE   0x7bde2    48080
+FREE   0x6e672    55132
+FREE   0x6a1f2    17516
+FREE   0x604a2    40250
+FREE   0x59ec2    26055
+FREE   0x4f2b2    44022
+Player 10 Player Index 9
+Player 18 Player Index 6

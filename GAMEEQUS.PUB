@@ -1,0 +1,644 @@
+;********************************
+;*				*
+;*	PREMIER MANAGER 3	*
+;*	THE GAME EQUATES	*
+;*				*
+;********************************
+
+BlitInfo_Addr	EQU	0				;4
+BlitInfo_Wide	EQU	4				;2
+BlitInfo_Hite	EQU	6				;1
+BlitInfo_PlaneS	EQU	7
+BlitInfo_Len	EQU	8
+
+EndTable	EQU	-1
+NewColo		EQU	-2
+JoinTable	EQU	-2
+
+GameData_Len	EQU	29538+16	;25664+16
+ClubData_Len	EQU	139096	;139096
+PlayData_Len	EQU	157296	;156776
+TactData_Len	EQU	(224*8)+(20*8)
+
+Num_Leag_Teams	EQU	114
+Num_Spre_Teams	EQU	6
+Num_Of_Non_Euro	EQU	120
+Num_Euro_Teams	EQU	124
+Total_Num_Teams	EQU	244
+
+Max_Market_Size	EQU	96
+
+
+Player		STRUC
+Player_Name	DB	12 DUP (?)
+Player_HN	DB	2 DUP (?)		; Watch word reads!
+Player_TK	DB	2 DUP (?)		;
+Player_PS	DB	2 DUP (?)		;
+Player_SH	DB	2 DUP (?)		;
+Player_HD	DB	2 DUP (?)		;
+Player_CR	DB	2 DUP (?)		;
+Player_FT	DB	2 DUP (?)		; To here.
+Player_Morale	DB	?			; 00001111
+Player_Aggres	EQU	Player_Morale		; 11110000
+Player_Ins_Type	DB	?			; 00000011
+Player_Age	EQU	Player_Ins_Type		; 11111100
+Player_Foot	DB	?			; 00000011
+Player_DPts	EQU	Player_Foot		; 11111100
+Player_Played	DB	?
+Player_Scored	DB	?
+Player_Concede	DB	?
+Player_Wage	DW	?
+Player_Ins_Cost	DW	?
+Player_Inj_Len	DB	?
+Player_Inj_Type	DB	?			; 00011111
+Player_Contract	EQU	Player_Inj_Type		; 11100000
+Player_Market	DB	?			; 00111111
+Player_TransQ	EQU	Player_Market		; 11000000
+Player_Train	DB	?			; 00001111
+Player_Intense	EQU	Player_Train		; 00110000
+Player_Inj_Phys	EQU	Player_Train		; 11000000
+Player		ENDS
+Player_Data_Len	EQU	SIZE Player		; 40
+
+
+Club		STRUC
+Club_Name	DB	16 DUP (?)
+Club_Manager	DB	16 DUP (?)
+Club_Money	DD	?
+Club_Ground	DB	24 DUP (?)
+Club_Seat_Avg	DD	?
+Club_Seat_Cap	DD	?
+Club_Terr_Avg	DD	?
+Club_Terr_Cap	DD	?
+Club_Players	DW	24 DUP (?)
+Club_Seat_Price	DB	?
+Club_Terr_Price	DB	?
+Club_Safety	DB	?			; 00000111
+Club_Country	EQU	CLUB_SAFETY		; 11111000
+Club_Formation	DB	?
+
+Club_Strip1	DB	7 DUP (?)		; Strip Number.
+Club_Strip2	DB	7 DUP (?)		; RGB Shirt 1  RGB Shirt 2.
+Club_Strip3	DB	7 DUP (?)		; RGB Shorts   RGB Socks.
+
+Club_Portrait	DB	?			; Picture Of Manager?
+Club_LeaGraph	DB	46 DUP (?)
+Club_Mana_Rate	DW	?
+Club_Last_Rate	DB	?
+Club_Grnd_Rate	DB	?
+Club_Fixtures	DB	370 DUP (?)		; (123 Matchs*3)+1.
+Club		ENDS
+Club_Len	EQU	Size Club		; 570
+
+Mana		STRUC
+Mana_Name	DB	16 DUP (?)
+Mana_Team	DW	?
+Mana_Div	DW	?
+Mana_Contract	DW	?
+Mana_Tickets	DD	?
+Mana_Crowd_Seat	DD	23 DUP (?)
+Mana_Crowd_Terr	DD	23 DUP (?)
+Mana_Bank_Week	DB	12*8 DUP (?)
+Mana_Bank_Year	DB	12*8 DUP (?)
+Mana_Loans	DB	4*6 DUP (?)
+Mana_Employees	DB	12*16 DUP (?)
+Mana_Vacancys	DB	8*16 DUP (?)
+Mana_Assist	DB	6 DUP (?)
+Mana_YouthCoach	DW	3 DUP (?)
+Mana_Scouts	DB	4*82 DUP (?)
+Mana_PlayBonus	DW	?
+Mana_InsCredit	DD	?
+Mana_InsDebit	DD	?
+Mana_InsPremium	DD	?
+Mana_DireMoney	DD	?
+Mana_LoanPlayer	DB	20 DUP (?)		; (Team,Player)*5.
+Mana_Faxes	DW	6*8 DUP (?)
+Mana_TeleOffer	DW	4 DUP (?)
+Mana_Sponsor1	DD	48 DUP (?)
+Mana_Sponsor2	DD	48 DUP (?)
+Mana_NewSpons	DD	48 DUP (?)
+Mana_AreaNames	DB	4*20 DUP (" ")
+Mana_Improved	DB	12*4 DUP (?)
+Mana_AreaCrowd	DW	4 DUP (?)
+Mana_Dire_Rate	DW	?
+Mana_Supp_Rate	DW	?
+Mana_Weather	DW	?
+Mana_PostponedQ	DW	?
+Mana_LastRating	DW	3 DUP (?)		; Mana,Dire,Supp Ratings.
+Mana_Confidence DW	?			; Vote Of Confidence. This is new.
+Mana_MatchData	DB	804 DUP (?)
+Mana_TeamHist	DB	20*32 DUP (?)
+Mana_Titles	DB	11*4 DUP (?)		; Years,Won   (11).
+Mana_PWDLFA	DB	144 DUP (?)		; P,W,D,L,GD,PTS.
+Mana_PrevClubs	DB	32 DUP (?)		; Year:2,Year:2,Club:1,Rate:3*1.
+Mana_StarTYear	DW	?			; Year Became Manager Of New Club.
+Mana_MonthYear	DB	4 DUP (?)		; Manager Of Month,Year.
+Mana_TeamPWDFA  DB	242*8 DUP (?)		; TEAM:1 P:1 W:1 D:1 F:2 A:2.
+Mana_Job_Apply	DW	?			; Job Application:Team Num.
+Mana_Tactics	DB	224*8 DUP (?)		; Tactics.
+Mana_TactNames	DB	20*8 DUP (?)
+Mana		ENDS
+Mana_Len	EQU	SIZE Mana
+
+
+
+
+GameDataSTRUC	STRUC
+LeagueTeam_ptr	DW	118 DUP (?)
+League1Tab_ptr	DB	616 DUP (?)
+League2Tab_ptr	DB	672 DUP (?)
+League3Tab_ptr	DB	672 DUP (?)
+League4Tab_ptr	DB	616 DUP (?)
+League5Tab_ptr	DB	616 DUP (?)
+PlayOffWon_ptr	DW	4 DUP (?)
+ScorersTab_ptr	DW	225 DUP (?)
+Refs1Tab_ptr	DW	11 DUP (?)
+Refs2Tab_ptr	DW	12 DUP (?)
+Refs3Tab_ptr	DW	12 DUP (?)
+Refs4Tab_ptr	DW	11 DUP (?)
+Refs5Tab_ptr	DW	11 DUP (?)
+Refs6Tab_ptr	DW	7 DUP (?)
+RefData_ptr	DB	1408 DUP (?)
+CupDraw_FA	DB	36*16 DUP (?)
+CupDraw_League	DB	32*16 DUP (?)
+CupDraw_Euro	DB	32*16 DUP (?)
+CupDraw_CupWin	DB	16*16 DUP (?)
+CupDraw_UEFA	DB	32*16 DUP (?)
+CupDraw_Shield	DB	16 DUP (?)
+PlayOff_Draw1	DB	08*16 DUP (?)
+CupResul_FA	DB	36*16 DUP (?)
+CupResul_League	DB	32*16 DUP (?)
+CupResul_Euro	DB	16*16 DUP (?)
+CupResul_CupWin	DB	16*16 DUP (?)
+CupResul_UEFA	DB	32*16 DUP (?)
+CupResul_Shield	DB	16 DUP (?)
+PlayOff_Draw2	DB	08*16 DUP (?)
+PlayOff_Draw3	DB	08*16 DUP (?)
+LeagueResults	DB	57*16 DUP (?)
+PrevLeagWinners	DB	320*5 DUP (?)
+PrevCupsWinners	DB	160*6 DUP (?)
+LeagueCupLeague	DW	92 DUP (?)
+NumTrans_ptr	DW	?
+TransList_ptr	DB	97*4 DUP (?)
+FaxTrans_ptr	DB	8*10 DUP (?)
+FaxFireHire_ptr	DW	2 DUP (?)
+FaxFireName_ptr	DB	16 DUP (?)
+ManaJobs_ptr	DW	4 DUP (?)
+WeekYear_ptr	DW	2 DUP (?)
+MatchNum_ptr	DW	5 DUP (?)
+CupsNum_ptr	DW	6 DUP (?)
+Postponed_ptr	DW	?
+PlayOffsNum_ptr	DW	?
+Interest_ptr	DW	?
+NumManager_ptr	DW	?
+Manager1_Ptr	DB	Mana_Len DUP (?)
+Manager2_Ptr	dB	Mana_Len DUP (?)
+GameDataSTRUC	ENDS
+
+
+ClubFix_Oppon	EQU	0
+ClubFix_HScore	EQU	1			; %11110000
+ClubFix_AScore	EQU	1			; %00001111
+ClubFix_Type	EQU	2			; %00011111
+ClubFix_HA	EQU	2			; %00100000	Minus(%11111111)=No Match
+ClubFix_Len	EQU	3
+
+
+
+Tactics		STRUC
+Tactics_Zones	DB	15*10 DUP (?)		; 11110000=X 00001111=Y.
+Tactics_KO_Zone	DB	10 DUP (?)
+Tactics_Players	DB	4*10 DUP (?)
+Tactics_KickOff	DB	4 DUP (?)
+Tactics_Corners	DB	4 DUP (?)
+Tactics_Captain	DB	?
+Tactics_ViceCap	DB	?
+Tactics_FK_Pass	DB	3 DUP (?)
+Tactics_FK_Shot	DB	3 DUP (?)
+Tactics_FK_Penl	DB	3 DUP (?)
+Tactics_Spare	DB	5 DUP (?)
+Tactics		ENDS
+Tactics_Len	EQU	SIZE Tactics		; 224.
+
+
+Tact		STRUC
+Tact_DoWhat	DB	?			; % Pass/Run
+Tact_PassDist	EQU	Tact_PassHite		; %00000011
+Tact_PassDrct	EQU	Tact_PassHite		; %00001100
+Tact_PassHite	DB	?			; %00110000
+Tact_Shoot	EQU	Tact_Tackle		;PassHite		; %00000011
+Tact_Tackle	DB	?			; %00001100
+Tact_Mark	DB	?			; %11110000=Type %00001111=Player.
+Tact		ENDS
+Tact_Len	EQU	Size Tact
+
+
+
+Bank1		STRUC
+BANK_DEBT	DD	?
+BANK_CRED	DD	?
+Bank1		ENDS
+
+
+
+Bank		STRUC
+Bank_Gates		dd	2 DUP (?)
+Bank_Wages		dd	2 DUP (?)
+Bank_Transfers	dd	2 DUP (?)
+Bank_Fines		dd	2 DUP (?)
+Bank_Grants	dd	2 DUP (?)
+Bank_Bills		dd	2 DUP (?)
+Bank_Sales		dd	2 DUP (?)
+Bank_Loan		dd	2 DUP (?)
+Bank_Ground	dd	2 DUP (?)
+Bank_Sponsor	dd	2 DUP (?)
+Bank_Others	dd	2 DUP (?)
+Bank_Interest	dd	2 DUP (?)
+Bank		ENDS
+Bank_Len	EQU	SIZE Bank
+
+
+
+
+Job		STRUC
+Job_Name	DB	14 DUP (?)
+Job_Rating	DB	?
+Job_Type	DB	?			; %00001111.
+Job_Age		EQU	Job_Type		; %11110000 (+40).
+Job		ENDS
+Job_Len		EQU	SIZE Job
+
+
+Scout		STRUC
+Scout_Doing	DB	?
+Scout_Done	DB	?
+Scout_Type	DB	?
+Scout_Rating	DB	?
+Scout_Div	DB	?			; %00000111.
+Scout_Foot	EQU	Scout_Div		; %00011000.
+Scout_Club	DB	?			; 0-23.
+Scout_Data	DB	76 DUP (?)
+Scout		ENDS
+Scout_Len	EQU	SIZE Scout		; 82.
+
+
+
+Fax		STRUC
+Fax_Num		DW	?
+Fax_Cash	DD	?
+Fax_Team	DW	?
+Fax_Player	DW	?
+Fax_Time	DW	?
+Fax		ENDS
+Fax_Len		EQU	SIZE Fax
+
+
+
+TeamHist_Year	EQU	0			; 2
+TeamHist_Div	EQU	2			; 2
+TeamHist_Club	EQU	4			; 2
+TeamHist_Pos	EQU	6			; 2
+TeamHist_P	EQU	8			; 2
+TeamHist_W	EQU	10			; 2
+TeamHist_D	EQU	12			; 2
+TeamHist_L	EQU	14			; 2
+TeamHist_GD	EQU	16			; 2
+TeamHist_Pts	EQU	18			; 2
+TeamHist_FA	EQU	20			; 2
+TeamHist_Leag	EQU	22			; 2
+TeamHist_Euro	EQU	24			; 2
+TeamHist_CWin	EQU	26			; 2
+TeamHist_UEFA	EQU	28			; 2
+TeamHist_Shield	EQU	30			; 2
+TeamHist_Len	EQU	32
+
+
+
+LeagTab		STRUC
+LeagTab_Team	DW	?
+LeagTab_HP	DW	?
+LeagTab_HW	DW	?
+LeagTab_HD	DW	?
+LeagTab_HL	DW	?
+LeagTab_HF	DW	?
+LeagTab_HA	DW	?
+LeagTab_AP	DW	?
+LeagTab_AW	DW	?
+LeagTab_AD	DW	?
+LeagTab_AL	DW	?
+LeagTab_AF	DW	?
+LeagTab_AA	DW	?
+LeagTab_Pts	DW	?
+LeagTab		ENDS
+LeagTab_Len	EQU	SIZE LeagTab		;28
+
+
+RefTab		STRUC
+RefTab_Name	DB	14 DUP (?)
+RefTab_Type	DB	?			; 00000111
+RefTab_Age	EQU	RefTab_Type		; 11111000 +40
+RefTab_Played	DB	?
+RefTab_Yellow	DW	?
+RefTab_Red	DW	?
+RefTab_Dpts	DW	?
+RefTab		ENDS
+RefTab_Len	EQU	SIZE RefTab		;22
+
+Result		STRUC
+Results_HTeam	DW	?
+Results_HScore	DW	?
+Results_Seat	DD	?
+Results_ATeam	DW	?
+Results_AScore	DW	?
+Results_Terr	DD	?
+Result		ENDS
+Results_LEN	EQU	SIZE Result		;16
+
+
+
+EuroData	STRUC
+EuroData_Result	DB	8*16 DUP (?)		; Next Matchs To Be Played.
+EuroData_Leag	DB	(4*08)*4 DUP (?)	; 4 Teams * 4 Tables.
+EuroData_Fixt	DB	(4*12)*4 DUP (?)	; (Team,Score,Team,Score).
+EuroData	ENDS
+EuroData_Len	EQU	SIZE EuroData		; 448.
+
+
+
+EuroLeag	STRUC
+EuroLeag_Team	DW	?
+EuroLeag_W	DB	?
+EuroLeag_D	DB	?
+EuroLeag_L	DB	?
+EuroLeag_F	DB	?
+EuroLeag_A	DB	?
+EuroLeag_Pts	DB	?
+EuroLeag	ENDS
+EuroLeag_Len	EQU	SIZE EuroLeag		;8
+
+
+
+
+PrevLeag	STRUC
+PrevLeag_Year	DW	?
+PrevLeag_Club	DW	?
+PrevLeag_W	DW	?
+PrevLeag_D	DW	?
+PrevLeag_L	DW	?
+PrevLeag_GD	DW	?
+PrevLeag_Pts	DW	?
+PrevLeag_Rate	DW	?
+PrevLeag	ENDS
+PrevLeag_Len	EQU	SIZE PrevLeag		;16
+
+
+PrevCups	STRUC
+PrevCups_Year	DW	?
+PrevCups_Winner	DW	?
+PrevCups_Runner	DW	?
+PrevCups_HDiv	DB	?
+PrevCups_ADiv	DB	?
+PrevCups	ENDS
+PrevCups_Len	EQU	SIZE PrevCups		;8
+
+
+
+
+Bids		STRUC
+Bids_Team	DW	?
+Bids_Contract	DW	?
+Bids_ClubFee	DD	?
+Bids_PlayFee	DD	?
+Bids_Wage	DW	?
+Bids_Points	DD	?
+Bids_Accepted	DW	?			; What Fees Are Accepted.
+Bids_Percent	DW	?			; % How Much Teams Wants Him.
+Bids		ENDS
+Bids_Len	EQU	SIZE Bids		; 28
+
+
+Contract	STRUC
+Contract_Team   DW	?
+Contract_Div    DW	?
+Contract_Cntrct DW	?
+Contract_Type   DW	?
+Contract_Bonus  DD	?
+Contract	ENDS
+Contract_Len    EQU	SIZE Contract
+
+
+
+MPlayer		STRUC
+MPlayer_Num	DW	?
+MPlayer_Time	DW	?			; Possesion Time
+MPlayer_Mtime	DW	?			; Match Time Played
+MPlayer_Prefit	DW	?			; Fitness Before Match
+MPlayer_Yellow	DB	?			; %0001
+MPlayer_Injury	EQU	MPlayer_Yellow		; %0010
+MPlayer_Red	EQU	MPlayer_Yellow		; %0100
+MPlayer_SubQ	EQU	MPlayer_Yellow		; %1000
+MPlayer_Shots	DB	?
+MPlayer_BadShot	DB	?
+MPlayer_Scored	DB	?
+MPlayer_Tackles	DB	?			; Tackles Attempetd
+MPlayer_GotBall	DB	?			; Tackles Won
+MPlayer_Passes	DB	?
+MPlayer_BadPass	DB	?
+MPlayer_Saved	DB	?
+MPlayer_XPos	DB	?			; Pixels/2 (0-159)
+MPlayer_YPos	DB	?			; Pixels   (0-255)
+MPlayer_Facing	DB	?
+MPlayer		ENDS
+MPlayer_Len	EQU	SIZE MPlayer		; 20
+
+
+
+HA		STRUC
+HA_Team		DW	?
+HA_Score	DW	?
+HA_HalfScore	DW	?
+HA_PenScore	DW	?			; Score Before Penalties.
+HA_Tactics	DD	?			; 32 Bit addr of tactics used.
+HA_MaxPlayers	DW	?
+HA_Valids	DB	?			; Valid Players Left.
+HA_Intercept	DB	?
+HA_Corners	DB	?
+HA_Throwins	DB	?
+HA_FreeKicks	DB	?
+HA_Penaltys	DB	?
+HA_Players	DB	MPLAYER_LEN*14 DUP (?)	; 280.
+HA_Scorers	DB	32 DUP (32)		; Player,Time (4*8).
+HA_PlayerSOff	DW	?			; Total,Red Cards.
+HA_SubsAllowed	DB	?
+HA_OffSide	DB	?			; Offside Cheat.
+HA_StripAddr	DW	?	; Was DD.	; Address of strip.
+HA		ENDS
+HA_TeamLen	EQU	SIZE HA			; 340.
+
+
+
+MD		STRUC
+MD_Time		DW	?			; Match Time.
+MD_TeamBall	DW	?			; Team Who Has Ball.
+MD_WhoGotIt	DW	?			; Player Who Has Ball.
+MD_WhatNext	DW	?			; Routine Number To Call Next.
+MD_Text		DW	?			; Text To Print.
+MD_PassData	DW	?			; Player.
+MD_Ball_X	DB	?			; Pixels/2 (0-159).
+MD_Ball_Y	DB	?			; Pixels   (0-255).
+MD_BallIso_X	DW	?
+MD_BallIso_Y	DW	?
+MD_HomeTeam	DB	HA_TeamLen DUP (?)	; 340.
+MD_AwayTeam	DB	HA_TeamLen DUP (?)	; 340.
+MD_Weather	DW	?
+MD_Ref_Num	DW	?			; Ref No. (For Fax).
+MD_Ref_Addr	DW	?	; Was DD.	; Address Of Ref.
+MD_ResultAddr	DW	?	; Was DD.	; Address Of Div. Results.
+MD_PenaltyNum	DW	?			; Num Of Penaltys To Go.
+MD_TackledQ	DB	?			; Loops Before Next Tackle Can Be Done.
+MD_MatchType	DB	?
+MD_CupRound	DB	?
+MD_Match_Half	DB	?			; Match Text Half.
+MD_CompTeam	DB	84 DUP (?)		; (14*6) Player,FT,MR,AGE,FOOT.
+MD_ManaVMana	DB	4 DUP (?)		; For Manager Playing Manager.
+MD		ENDS
+MD_Len		EQU	SIZE MD			; 804.
+
+
+IsoSprt		STRUC
+IsoSprt_XPos	DW	?			; Screen Xpos.
+IsoSprt_YPos	DW	?			; Screen Ypos.
+IsoSprt_HA	DW	?			; Home Or Away.
+IsoSprt_Hite	DW	?			; Height Of Image.
+IsoSprt_Sprt	DW	?			; Addr Of Sprite.
+IsoSprt_Back	DW	?			; Saved Background Address.
+IsoSprt		ENDS
+IsoSprt_Len	EQU	SIZE IsoSprt
+
+
+
+
+_UU		EQU	0
+_UR		EQU	1
+_RR		EQU	2
+_DR		EQU	3
+_DD		EQU	4
+_DL		EQU	5
+_LL		EQU	6
+_UL		EQU	7
+
+
+
+RETcc		MACRO
+		LOCAL	NoRet
+		jc	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETcs		MACRO
+		LOCAL	NoRet
+		jnc	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETeq		MACRO
+		LOCAL	NoRet
+		jnz	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETne		MACRO
+		LOCAL	NoRet
+		jz	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETge		MACRO
+		LOCAL	NoRet
+		jl	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETgt		MACRO
+		LOCAL	NoRet
+		jle	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETle		MACRO
+		LOCAL	NoRet
+		jg	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETlt		MACRO
+		LOCAL	NoRet
+		jge	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETmi		MACRO
+		LOCAL	NoRet
+		jns	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+RETpl		MACRO
+		LOCAL	NoRet
+		js	NoRet
+		ret
+NoRet:
+		ENDM
+
+
+CALLeq		MACRO	Addr
+		LOCAL	NoCall
+		jnz	NoCall
+		call	Addr
+NoCall:
+		ENDM
+
+
+CALLne		MACRO	Addr
+		LOCAL	NoCall
+		jz	NoCall
+		call	Addr
+NoCall:
+		ENDM
+
+
+CALLcc		MACRO	Addr
+		LOCAL	NoCall
+		jc	NoCall
+		call	Addr
+NoCall:
+		ENDM
+
+
+CALLcs		MACRO	Addr
+		LOCAL	NoCall
+		jnc	NoCall
+		call	Addr
+NoCall:
+		ENDM
+
+
+

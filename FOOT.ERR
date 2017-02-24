@@ -1,0 +1,22 @@
+foot.cpp(23): Error! E059: (col 10) unable to open 'global.h' 
+foot.cpp(26): Error! E059: (col 10) unable to open 'mouse.h' 
+foot.cpp(27): Error! E059: (col 10) unable to open 'front.h' 
+foot.cpp(35): Error! E126: (col 1) class 'goal_info' has already been defined 
+foot.cpp(44): Error! E125: (col 13) invalid redefinition of the typedef name 'goal_table' 
+foot.cpp(44): Note! N392: (col 13) 'goal_table' defined in: defines.h(6179) (col 50) 
+foot.cpp(63): Error! E029: (col 31) symbol 'MAX_NET_USERS' has not been declared 
+foot.cpp(141): Error! E029: (col 30) symbol 'EUROteamB' has not been declared 
+foot.cpp(142): Error! E003: (col 9) missing return value 
+foot.cpp(199): Error! E029: (col 22) symbol 'strcmp' has not been declared 
+foot.cpp(203): Error! E029: (col 37) symbol 'JOY1_CTRL' has not been declared 
+foot.cpp(205): Error! E029: (col 37) symbol 'JOY2_CTRL' has not been declared 
+foot.cpp(207): Error! E029: (col 37) symbol 'KEY1_CTRL' has not been declared 
+foot.cpp(209): Error! E029: (col 37) symbol 'KEY2_CTRL' has not been declared 
+foot.cpp(211): Error! E029: (col 37) symbol 'MOUSE_CTRL' has not been declared 
+foot.cpp(213): Error! E029: (col 37) symbol 'LOGPAD_CTRL' has not been declared 
+foot.cpp(215): Error! E029: (col 37) symbol 'GRAV1_CTRL' has not been declared 
+foot.cpp(217): Error! E029: (col 37) symbol 'GRAV2_CTRL' has not been declared 
+foot.cpp(219): Error! E029: (col 37) symbol 'NET_CTRL' has not been declared 
+foot.cpp(225): Error! E029: (col 44) symbol 'TEAM_A' has not been declared 
+foot.cpp(228): Error! E029: (col 52) symbol 'TEAM_B' has not been declared 
+foot.cpp(255): Error! E133: (col 42) too many errors: compilation aborted 

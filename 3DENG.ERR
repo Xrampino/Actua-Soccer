@@ -1,0 +1,6 @@
+3deng.c(76): Error! E059: (col 10) unable to open 'actrend.equ' 
+files.c(7): Error! E029: (col 10) symbol 'BM_XCAUCASA' has not been declared 
+files.c(7): Note! N393: (col 10) included from 3deng.c(78) 
+files.c(59): Error! E029: (col 11) symbol 'BM_SKY15' has not been declared 
+files.c(68): Error! E029: (col 9) symbol 'BM_PT1' has not been declared 
+files.c(78): Error! E029: (

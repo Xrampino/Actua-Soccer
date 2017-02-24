@@ -1,0 +1,76 @@
+;***************************************************************************
+;
+;	This is the header file for GameTab.Pub.
+;
+;***************************************************************************
+
+
+		EXPORT	SeasonTimeTable,Byte
+		EXPORT	TheWeatherTable,Byte
+		EXPORT	WhenPostponeTab,Byte
+		EXPORT	PlayPostponeTab,Byte
+		EXPORT	Week_TimeTable,Byte
+		EXPORT	Goal_Chance_Tab,Word
+		EXPORT	MGoalChanceTab,Word
+		EXPORT	LeaguePriceTab,Word
+		EXPORT	CupPriceTab,Word
+		EXPORT	Attendance_Tab,Word
+		EXPORT	WeatherAttenTab,Word
+		EXPORT	CupAtten_FA,Word
+		EXPORT	CupAtten_Leag,Word
+		EXPORT	CupAtten_Euro,Word
+		EXPORT	CupAtten_CWin,Word
+		EXPORT	CupAtten_UEFA,Word
+		EXPORT	CupAtten_Shield,Word
+		EXPORT	CupAtten_Table,Word
+		EXPORT	WonRoundQ_Tab,Byte
+		EXPORT	Finals_Stadiums,Byte
+		EXPORT	Stadium_FA,Word
+		EXPORT	Stadium_Leag,Word
+		EXPORT	Stadium_Euro,Word
+		EXPORT	Stadium_CupWin,Word
+		EXPORT	Stadium_UEFA,Word
+		EXPORT	Stadium_Shield,Word
+		EXPORT	PlayOff_SetTab,DWord
+		EXPORT	PlayOffResulTab,Word
+		EXPORT	WhichHalfText,Byte
+		EXPORT	FormationTable,Word
+		EXPORT	Ratings_Tables,Byte
+		EXPORT	TypeTextTable,Byte
+		EXPORT	FootTextTable,Byte
+		EXPORT	RefsText_Tab,Byte
+		EXPORT	RefsInit_Tab,Byte
+		EXPORT	Country_Table,Byte
+		EXPORT	CountryInit_Tab,Byte
+		EXPORT	Divs3Text_Table,Byte
+		EXPORT	Injury_Table,Byte
+		EXPORT	Treatment_Text,Byte
+		EXPORT	TreatPhysioText,Byte
+		EXPORT	TreatCostTab,Word
+		EXPORT	CoachTypeText,Byte
+	;	EXPORT	CoachIntenText,Byte
+		EXPORT	TrainIntenText,Byte
+		EXPORT	LeagueTextTab,Byte
+		EXPORT	NMD_Text_League,Byte
+		EXPORT	NMD_Text_Leag1,Byte
+		EXPORT	NMD_Text_FA,Byte
+		EXPORT	NMD_TextLCup,Byte
+		EXPORT	NMD_Text_Euro,Byte
+		EXPORT	NMD_TextCWin,Byte
+		EXPORT	NMD_TextUEFA,Byte
+		EXPORT	NMD_TextCharity,Byte
+		EXPORT	NMD_TextPOff,Byte
+		EXPORT	NMD_None,Byte
+		EXPORT	NMDCupsTextAddr,Word
+		EXPORT	ValidMatchText,Byte
+		EXPORT	Time_TextTables,Byte
+		EXPORT	Blank_Time_Text,Byte
+		EXPORT	EndSeasTimeText,Byte
+		EXPORT	WeatherTextTab,Byte
+		EXPORT	EOM_Table_1,Byte
+		EXPORT	EOM_Table_2,Byte
+		EXPORT	EOM_Table_4,Byte
+		EXPORT	EOM_Table_6,Byte
+		EXPORT	AwardsTextTable,Byte
+		EXPORT	TrainTypeText,Byte
+

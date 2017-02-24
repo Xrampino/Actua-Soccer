@@ -1,0 +1,1781 @@
+
+
+
+NetNOW! Technical Reference
+
+Development System Document V1.0
+
+Revision Date 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NetNOW! Development System
+© Copyright 1993-1995, All Rights Reserved
+
+Human Machine Interfaces, Inc.
+30 East Broadway, Suite 180
+Eugene, Oregon 97401
+
+Tel: (503) 687-6509    Fax: (503) 687-6479    BBS: (503) 687-5623    EMail: hmi@efn.org
+
+Forward
+
+Human Machine Interfaces, Inc. strives to provide the development community with  high quality and high performance
+development systems allowing the developer to concentrate on producing top rate applications without having to worry
+about low level headaches such as sound support and network interfaces.
+
+Human Machine Interfaces, Inc. flagship product, entitled “Sound Operating System” is in use by over 40 of the top
+entertainment companies and was showcased in over 60 games in the past year.  In a constant effort to increase the
+quality of our products we routinely conduct customer surveys to determine what aspect of our products needs the most 
+improvement.  Please feel free to contact Human Machine Interfaces, Inc. if you have any suggestions for product
+enhancement and/or improvement.
+
+Human Machine Interfaces, Inc. provides full unlimited free technical support to all of our clients.  You will never
+be greeted by an answering machine or voice mail when calling for technical support.  In addition, when you receive
+a Human Machine Interfaces, Inc. development system, you will be assigned a personal technical support representative
+to assist you in integrating our systems quickly into your application.
+
+We hope that you enjoy using our development systems as much as we have enjoyed developing them.
+
+
+Human Machine Interfaces, Inc.
+30 East Broadway, Suite 180
+Eugene, Oregon  97401
+
+Tel	: (503) 687-6509	Monday - Friday, 7:00am - 5:00pm Pacific Standard Time
+Fax    	: (503) 687-6479
+BBS  	: (503) 687-5623	28.8, 8, N, 1
+EMail	:  hmi@efn.org
+
+Introduction
+
+NetNOW! provides a transparent and high performance interface between the application program and the network layer 
+allowing you to create powerful multi-player applications.  The NetNOW! library supports both the IPX and NetBIOS network
+transfer protocols.  In addition, the NetNOW! library provides a simple interface to the Sound Operating System that
+allows voice to be transmitted in real-time over the network.
+
+The following is an explanation of terms used throughout this manual to describe the NetNOW! system:
+
+Broadcast
+
+A “broadcast” means to send a message to all machines on a network.  Performing lots of broadcasts can slow down 
+the network.  The NetNOW! system only performs system wide broadcasts when trying to locate other nodes on the system.
+
+
+Console Node
+
+
+The “console node” is the node that represents the local ( your ) computer.  It is important to know which node is 
+the local node so that the application does not use unnecessary system time sending messages to the local computer.
+
+
+Datagram
+
+
+A “datagram” is a term used to represent a chunk or packet of data that will be transferred across the network.  
+The term datagram is usually associated with the NetBIOS system.  In a typical NetBIOS environment, a datagram may 
+be up to 512 bytes in length.
+
+
+IPX
+
+
+IPX stands for the Internetwork Packet eXchange protocol used primarily by the Novell networking system.  An IPX 
+data packet may be up to 512 bytes in length.
+
+
+Node
+
+
+A “node” is used to refer to an individual station on the network.  Each station on the network has is own unique 
+network address that is burned into the LAN card.
+
+
+NetBIOS
+
+
+NetBIOS is a network protocol used by system such as IBM PC LAN and Lantastic.  The Novell system can also support 
+NetBIOS but the IPX data transfer protocol is preferred as it is the native transfer protocol.
+
+Packet or Data Packet
+
+
+A “packet” or “data packet” is simply a chunk of data that is to be transmitted across the network.  The packet can 
+contain any type of data and is usually preceded by a header to describe the data packet.
+
+
+Socket
+
+
+A “socket” is analogous to a file handle in DOS.  The IPX system uses sockets to communicate from node to node.
+
+
+
+NetNOW! can transfer data packets directly to an individual node, to selected nodes, or to all machines on a network.  
+Typically the only time an application program should broadcast data packets to all machines on the network is during 
+the synchronization phase when there must be a predetermined number of participants to start the application.
+
+
+NetNOW! does not utilize “session based” networking which requires significant system/network overhead, or use the 
+“global broadcast”  method sending data packets to every station on the network during application execution.
+
+
+The following diagram demonstrates how the NetNOW! system interfaces with your application:
+
+
+
+
+
+Application
+
+
+
+
+
+
+NetNOW!
+
+
+
+
+
+
+
+IPX/NetBIOS
+
+
+
+
+
+
+
+LAN Card
+
+
+
+
+
+
+
+
+The NetNOW! library automatically detects which system is currently operating.  If both IPX and NetBIOS are present, 
+IPX will be used.
+
+
+Multi-Player Programming Overview
+
+
+The following section is designed to give the application programmer a brief overview of multi-player programming 
+and some of the design issues that may accompany integration of the NetNOW! system.
+
+
+When designing a multi-player or client/server application it is essential that you transfer only the required information 
+from node to node to avoid slowing down the application and the network.  The first step is to decide what type of 
+information will need to be transferred to each node in the system.  Typically keyboard commands and player/world 
+movement information are the types of data that need to be transmitted.  Additionally if you are implementing real-time 
+voice communication, the voice data wil
+
+
+It is required that you include a small header with each data packet to help identify what type of packet the data 
+is and how the application should process it.  The NetNOW! system requires that the first 32 bits ( 4 bytes ) in 
+your header to be reserved and is used internally by the system for sequencing the packets as they are transmitted 
+across the network.  This sequencing is needed because the IPX and NetBIOS protocols do not guarantee that the data 
+packets are received in the order they are transmitt
+
+
+typedef	struct	_tagHEADER
+		
+{
+
+			
+DWORD	dwSequence;	// sequence
+
+			
+WORD		wType;		// block type
+			
+WORD		wPlayerNumber;	// which player?
+		
+		
+} HEADER;
+
+
+You may use any type of header that you require.  You should keep the number of elements in the header as small as 
+required as it reduces the size of the data that can be transmitted in the data packet.
+
+
+In a typical multi-player game situation, a data packet will be sent every frame to ensure that the machines stay 
+in synchronization with each other.  You may also wish to listen for “broadcast” packets so that new players may 
+join the application in real-time.
+
+
+The NetNOW! system keeps a sorted list of the node addresses so that a player may be identified by an ordinal number.  
+For example, if your node is number 3,  you will always be node 3 on each players machine.  This can be very important 
+if you wish to send messages to selective players on the network.  When a new player joins the application the list 
+is updated on each machine to keep everything in sync.
+
+
+NetNOW! System Architecture
+
+
+The NetNOW! system communicates with the IPX or NetBIOS system via interrupt calls executed through DPMI.  This technique 
+was utilized because both protocols require the data to be located in the first 1 megabyte of memory and to avoid 
+the real mode code calling up to the protected mode environment as data is transmitted and received.   The NetNOW! 
+system allocates a small chunk of real mode memory via DPMI to store the packet headers and packet data in while 
+the packets are in the process of being receive
+
+
+
+Application
+
+
+
+
+
+
+NetNOW! Library
+
+
+
+
+
+
+IPX or NetBIOS NetNOW! Interface
+
+
+
+
+
+
+
+Real Mode Memory Area
+
+
+
+
+
+
+IPX or NetBIOS Network Layer
+
+
+
+
+
+
+LAN Card
+
+
+
+
+
+
+
+When data packets are sent from the application,  the packet data is copied down to the real mode memory area.  In 
+addition the NetNOW! system constructs the transmission header directly in the real mode memory area to avoid any 
+extra system overhead.  This also means that once a send request is issued the original packet data area in the application 
+memory is free to be used immediately.
+
+
+As the application program requests data from the NetNOW! system, the data is copied from the real mode memory area 
+to the destination memory address in the applications memory.  The real mode memory is then set up to receive data 
+immediately.
+
+
+
+Function Reference
+
+
+The following section describes the various functions that are available for use in the NetNOW! development system.
+
+
+
+System Initialization and Query
+
+
+The system initialization functions allow the application to initialize the network system and sync up with other 
+nodes on the network.  The query functions allow you to determine information about the NetNOW! system and the network 
+layer.
+
+
+
+Function				Description						
+
+
+hmiNETNOWInitSystem			Initializes NetNOW! system and detects network layer
+
+hmiNETNOWUnInitSystem		Uninitializes the NetNOW! system and cancels all packets
+
+hmiNETNOWGetNetworkAddr		Returns the network address of the console node
+
+hmiNETNOWGetActiveNodes		Retrieves the number of active nodes on the NetNOW! system
+
+hmiNETNOWGetConsoleNode		Returns which node is the console (local) node
+
+hmiNETNOWGetNetworkType		Returns network type, i.e. IPX or NetBIOS
+
+hmiNETNOWAddNode			Adds node (player) to the internal NetNOW! node list
+
+hmiNETNOWSortNodes			Sorts the nodes into ascending order by network address
+
+hmiNETNOWFindNodes			Attempts to locate nodes on the network
+
+hmiNETNOWPostListen			Place a receive data command into the receive queue
+
+
+
+
+Data Transfer
+
+
+The data transfer functions allow the application to send and receive data from nodes on the network.
+
+
+
+Function				Description						
+
+
+hmiNETNOWSendData			Sends data to a node on the network
+
+hmiNETNOWGetData			Receives data from a node on the network
+
+hmiNETNOWGetHeader			Retrieve the header portion of a network data packet
+
+hmiNETNOWGetBlock			Retrieve the data associated with a data header
+
+
+hmiNETNOWAddNode
+
+	
+hmiNETNOWAddNode
+	
+
+Description
+
+
+
+
+	
+Adds a new node to the internal system node list.
+
+
+#include "netnow.h"
+
+
+WORD	cdecl  hmiNETNOWAddNode( _NETNOW_NODE_ADDR sNode );
+
+
+sNode		Network address of node to add.
+	
+
+Remarks
+	
+The hmiNETNOWAddNode function is used to add a new node to the internal system node list.  This is typically done 
+when a new player or node enters an already executing application.  After adding the node, you must call the hmiNETNOWSortNodes 
+function to re-order the internal node list.
+
+
+After adding a new node, your application should use the hmiNETNOWGetConsoleNode function to determine which node 
+represents your computer just in case the list was adjusted when the new node was added.
+
+	
+
+Return Value
+	
+The hmiNETNOWAddNode  function returns one of the following pre-defined error codes:
+
+	
+_NETNOW_ADD_COMPLETE	Node was added to node list
+	
+_NETNOW_ADD_DUPLICATE	Node already in node list
+	
+_NETNOW_ADD_LIST_FULL	Node list is full
+
+
+	
+
+See Also		
+
+
+
+
+hmiNETNOWFindNodes
+
+	
+hmiNETNOWFindNodes
+	
+
+Description
+
+
+
+
+	
+Attempts to locate a specific number of nodes on the network.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWFindNodes( WORD wNodes );
+
+
+wNodes		Number of nodes to locate.
+	
+
+Remarks
+	
+The hmiNETNOWFindNodes function is used to locate a specific number of nodes on the network.  This function will 
+not return until all nodes are located or a key is pressed.
+
+
+The function works by broadcasting out a special packet that contains the console node network address once a second.  
+Each station on the network using the hmiNETNOWFindNodes function does the same.  As each station receives a broadcast 
+packet, it adds the network address to the internal node list until the list has reached the desired number of nodes/players.
+
+
+You may wish to re-work the hmiNETNOWFindNodes function as is does use several C library functions such as kbhit, 
+time, cputs which you may wish to replace with your own functions.
+
+	
+
+Return Value
+	
+The hmiNETNOWFindNodes  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		All nodes were located.
+	
+_FALSE	A key was pressed to exit the location
+			
+process before all nodes were found.
+
+
+	
+
+See Also		
+
+
+
+
+hmiNETNOWGetActiveNodes
+
+	
+hmiNETNOWGetActiveNodes
+	
+
+Description
+
+
+
+
+	
+Retrieves the number of active nodes on the NetNOW! system.
+
+
+#include "netnow.h"
+
+
+WORD	cdecl  hmiNETNOWGetActiveNodes( VOID );
+
+	
+
+Remarks
+	
+The hmiNETNOWGetActiveNodes function is useful for determining the number of active nodes on the system.  You may 
+wish to display information when new nodes are added, such as a system message to let other players know when a new 
+player enters the application.
+
+	
+
+Return Value
+	
+The hmiNETNOWGetActiveNodes  function returns the number of active nodes on the system.
+
+
+The function will always return at least one active node, because the console node is counted in the node list.
+
+	
+
+See Also		
+
+
+
+
+hmiNETNOWGetBlock
+
+	
+hmiNETNOWGetBlock
+	
+
+Description
+
+
+
+
+	
+Retrieves packet data for a specific node or system broadcast packets.  This function is used after calling the hmiNETNOWGetHeader 
+function.
+
+
+#include "netnow.h"
+
+
+VOID 	cdecl  hmiNETNOWGetBlock( 	PSTR 	pPacket, 
+					
+PSTR 	pData, 
+				           	
+WORD wDSize  );
+
+
+pPacket		Pointer to data packet returned by hmiNETNOWGetBlock.
+
+pData		Pointer to application specific data area to move data to.
+
+wDSize		Data packet size, in bytes.
+	
+
+Remarks
+	
+The hmiNETNOWGetBlock function is used to retrieve data from the packet receive queue after retrieving the application 
+specific header with the hmiNETNOWGetHeader function.
+
+
+Note that if you wish to retrieve the data directly without going through the hmiNETNOWGetBlock function, you may 
+directly access the packet data via the pPacket variable as it points directly to the packet data.
+
+
+Be sure to issue a hmiNETNOWPostListen command after the data is retrieved.  If your application does not issue a 
+hmiNETNOWPostListen command after retrieving the data, the  receive queue will slowly run out of available elements 
+and could cause your application to lose incoming data packets.
+
+	
+
+Return Value
+	
+None
+
+	
+	
+
+See Also	hmiNETNOWGetData,  hmiNETNOWGetHeader	
+
+
+
+
+
+
+hmiNETNOWGetConsoleNode
+
+	
+hmiNETNOWGetConsoleNode
+	
+
+Description
+
+
+
+
+	
+Retrieves the node number of the console node.
+
+
+#include "netnow.h"
+
+
+WORD	cdecl  hmiNETNOWGetConsoleNode( VOID );
+
+	
+
+Remarks
+	
+The hmiNETNOWGetConsoleNode function is used to determine which node is the local computer on the network.  The application 
+should avoid sending messages to the console node because unnecessary system overhead will be used transmitting to 
+the local node.
+
+	
+
+Return Value
+	
+The hmiNETNOWGetConsoleNode  function returns the node number, 0 - number of active nodes, of  the computer the function 
+is executed on.
+
+
+	
+
+See Also	hmiNETNOWGetActiveNodes	
+
+
+
+
+
+hmiNETNOWGetData
+
+	
+hmiNETNOWGetData
+	
+
+Description
+
+
+
+
+	
+Retrieves packet data for a specific node or system broadcast packets.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWGetData( 	PSTR 	pHeader, 
+					
+WORD 	wHSize,
+				         	
+PSTR 	pData,
+					
+WORD 	wDSize  );
+
+
+pHeader		Pointer to application specific header.
+
+wHSize		Header size, in bytes.
+
+pData		Pointer to application specific data.
+
+wDSize		Data packet size, in bytes.
+	
+
+Remarks
+	
+The hmiNETNOWGetData function is used to retrieve data from the packet receive queue.  The data packets are returned 
+to the application in the order that they are sent from the other nodes.   The system handles the packet ordering 
+automatically.
+
+
+Your application may wish to check periodically for broadcast packets so that additional players/nodes can enter 
+the application at run time.
+
+
+After each data packet is returned to the application, the packet is immediately available for data reception.
+	
+
+Return Value
+	
+The hmiNETNOWGetData  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		Data was retrieved in sequence.
+	
+_FALSE	No data was waiting for the node.
+
+
+	
+
+See Also	hmiNETNOWSendData	
+
+
+
+
+hmiNETNOWGetHeader
+
+	
+hmiNETNOWGetHeader
+	
+
+Description
+
+
+
+
+	
+Retrieves application specific data header for a specific node or system broadcast packets.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWGetHeader(	PSTR 	pHeader, 
+					
+WORD 	wHSize,
+					
+PSTR *  pPacket  );
+
+
+pHeader		Pointer to application specific header.
+
+wHSize		Header size, in bytes.
+
+pPacket		Pointer to pointer for application specific data.  This pointer will be
+		
+passed to the hmiNETNOWGetBlock function.
+	
+
+Remarks
+	
+The hmiNETNOWGetHeader function is used to retrieve only the data header from the packet receive queue.  If you wish 
+to retrieve the actual data that accompanies the header, you must use the hmiNETNOWGetBlock function.  This function 
+is useful when applications transfer many different types of data packets.  By retrieving just the header your application 
+can direct the call to hmiNETNOWGetBlock to point to the correct data area in which to place the data packet and 
+avoid having to buffer the packet data i
+
+
+The data packets are returned to the application in the order that they are sent from the other nodes.   The system 
+handles the packet ordering automatically.
+
+
+The application may wish to check periodically for broadcast packets so that additional players/nodes can enter the 
+application in real time.
+
+
+After each data packet is returned to the application, the packet is immediately available for data reception.
+	
+
+Return Value
+	
+The hmiNETNOWGetHeader  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		Data was retrieved in sequence.
+	
+_FALSE	No data was waiting for the node.
+
+
+	
+
+See Also	hmiNETNOWGetData, hmiNETNOWGetBlock	
+
+
+
+
+
+
+hmiNETNOWGetNetworkAddr
+
+	
+hmiNETNOWGetNetworkAddr
+	
+
+Description
+
+
+
+
+	
+Retrieves the network address of the console node.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWGetNetworkAddr( _NETNOW_NODE_ADDR * 						sNodeAddr  
+);
+
+
+sNodeAddr	Pointer to a node address variable.
+
+	
+
+Remarks
+	
+The hmiNETNOWGetNetworkAddr function is used to determine the address of the console node.  This function is used 
+if you wish to transmit your network address to another node on the system.
+
+
+The application may wish to send the local network address out when trying to enter an already executing application.
+
+	
+
+Return Value
+	
+The hmiNETNOWGetNetworkAddr  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		The network address was retrieved
+	
+_FALSE	The network address was not retrieved
+
+
+	
+
+See Also	hmiNETNOWGetConsoleNode, hmiNETNOWGetActiveNodes	
+
+
+
+
+hmiNETNOWGetNetworkType
+
+	
+hmiNETNOWGetNetworkType
+	
+
+Description
+
+
+
+
+	
+Retrieves the network type of the console node.
+
+
+#include "netnow.h"
+
+
+WORD	cdecl  hmiNETNOWGetNetworkType( VOID  );
+
+	
+
+Remarks
+	
+The hmiNETNOWGetNetworkType function is used to determine the current network protocol that the NetNOW! system is 
+using to transfer information.  This function is primarily used for information purposes only.
+
+
+	
+
+Return Value
+	
+The hmiNETNOWGetNetworkType  function returns one of the following values:
+
+	
+_NETNOW_IPX		IPX protocol based network
+	
+_NETNOW_NETBIOS	NetBIOS protocol based network
+
+
+	
+
+See Also	hmiNETNOWGetNetworkAddr	
+
+
+
+hmiNETNOWInitSystem
+
+	
+hmiNETNOWInitSystem
+	
+
+Description
+
+
+
+
+	
+Initialize the NetNOW! system and determine if a network layer is present.
+
+
+#include "netnow.h"
+
+
+WORD	cdecl  hmiNETNOWInitSystem( WORD wMaxNodes  );
+
+
+wMaxNodes	Maximum number of allowable nodes/players.
+
+	
+
+Remarks
+	
+The hmiNETNOWInitSystem function must be called before calling any other NetNOW! functions.  This function determines 
+the type of network protocol, if any, is present.  The application may determine what type of network protocol the 
+NetNOW! system is using by calling the hmiNETNOWGetNetworkType function.
+
+
+Note that on NetBIOS systems, the hmiNETNOWInitSystem function may take a few seconds to initialize as the NetBIOS 
+system is slower because of the need to query other nodes when initializing.  The IPX system will initialize in a 
+very short period of time.
+
+
+	
+
+Return Value
+	
+The hmiNETNOWInitSystem  function returns one of the following pre-defined error codes:
+
+	
+_NETNOW_NO_ERROR		NetNOW! system initialized 
+	
+_NETNOW_NO_NETWORK	No network was located
+	
+_NETNOW_INIT_ERROR	An init error occurred
+	
+_NETNOW_NO_REALMEM	No free real mode memory
+
+
+	
+
+See Also	hmiNETNOWUnInitSystem	
+
+
+
+
+hmiNETNOWPostListen
+
+	
+hmiNETNOWPostListen
+	
+
+Description
+
+
+
+
+	
+Places a listen for data command in the network receive queue.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWPostListen(  VOID  );
+
+
+	
+
+Remarks
+	
+The hmiNETNOWPostListen function is used to place a “listen for data” command into the data receive queue.  This 
+function should be used if you choose not to use the NetNOW! function hmiNETNOWGetBlock when transferring data from 
+the receive area to your program data area.   After you retrieve the data block, simply call this function to make 
+the slot available to receive data again.
+
+	
+
+Return Value
+	
+The hmiNETNOWPostListen  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		The listen command was issued
+	
+_FALSE	The receive data queue was full
+
+
+	
+
+See Also	hmiNETNOWGetHeader	
+
+
+
+
+
+hmiNETNOWSendData
+
+	
+hmiNETNOWSendData
+	
+
+Description
+
+
+
+
+	
+Sends data packet to a specific node or to the entire network.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWSendData( 	PSTR 	pHeader, 
+					
+WORD 	wHSize,
+				           	
+PSTR 	pData,
+					
+WORD 	wDSize,
+				           	
+WORD 	wNode  );
+
+
+pHeader		Pointer to application specific header.
+
+wHSize		Header size, in bytes.
+
+pData		Pointer to application specific data.
+
+wDSize		Data packet size, in bytes.
+
+wNode		Node to send data to, _NETNOW_BROADCAST for system 			broadcast.
+	
+
+Remarks
+	
+The hmiNETNOWSendData function is used to send data to the packet transmission queue.  The data packets are transmitted 
+to the application in the order that they are received from the application.   The system handles the packet ordering 
+automatically.
+
+	
+
+Return Value
+	
+The hmiNETNOWSendData  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		Data sent to the transmission queue.
+	
+_FALSE	The transmission queue was full.
+
+
+	
+
+See Also	hmiNETNOWGetData	
+
+
+
+
+hmiNETNOWSortNodes
+
+	
+hmiNETNOWSortNodes
+	
+
+Description
+
+
+
+
+	
+Sorts the internal node list in ascending order by network address.
+
+
+#include "netnow.h"
+
+
+VOID	cdecl  hmiNETNOWSortNodes( VOID );
+	
+
+Remarks
+	
+The hmiNETNOWSortNodes function must be called after adding a new node using the hmiNETNOWAddNode function in order 
+to maintain the internal node list.
+
+	
+
+Return Value
+	
+None
+
+	
+
+See Also	hmiNETNOWAddNode	
+
+
+
+
+
+hmiNETNOWUnInitSystem
+
+	
+hmiNETNOWUnInitSystem
+	
+
+Description
+
+
+
+
+	
+Uninitializes the NetNOW! system and cancels all remaining receive and transmission packets.  Real mode memory is 
+also freed by this function.
+
+
+#include "netnow.h"
+
+
+BOOL	cdecl  hmiNETNOWUnInitSystem( VOID );
+	
+
+Remarks
+	
+The hmiNETNOWUnInitSystem function must be called before terminating your application.  If this function is not called, 
+real mode memory may be overwritten if any data packets arrive after the application terminates.
+
+	
+
+Return Value
+	
+The hmiNETNOWUnInitSystem  function returns one of the following pre-defined error codes:
+
+	
+_TRUE		The system was uninitialized.
+	
+_FALSE	The system was not initialized.
+
+
+	
+
+See Also	hmiNETNOWInitSystem	
+
+
+
+
+
+Data Structures / System Definitions
+
+
+The following section describes the various data structures and system defines that are used by the NetNOW! system.  
+All of the data structures are located in the netnow.h header file.
+
+
+The number to the right of the definition in parenthesis is the default value for the definition.
+
+
+Definition
+
+	
+_NETNOW_MAX_NODES				( 16 )
+
+
+Description
+
+
+This value indicates the maximum number of network nodes that can be active at any one time.  If you alter this value 
+you must recompile the NetNOW! library as this affects the amount of memory that is allocated inside the IPX and 
+NetBIOS drivers.
+
+
+
+Definition
+
+
+_NETNOW_MAX_SEND_PACKETS			( 16 )
+
+
+Description
+
+
+This value sets the maximum number of packets that will be allocated in real mode memory for the transmission queue.  
+If you are sending out a large number of packets each frame you may wish to increase this value.  If you alter this 
+value you must recompile the NetNOW! libraries.
+
+
+
+Definition
+
+
+_NETNOW_MAX_LISTEN_PACKETS		( 16 )
+
+
+Description
+
+
+This value sets the maximum number of packets that will be allocated in real mode memory for the receive queue.  
+If you are allowing more than 8 nodes active at one time you may wish to increase this value.  If you alter this 
+value you must recompile the NetNOW! libraries.
+
+
+Definition
+
+
+_NETNOW_DATA_PACKET				( 512 )
+
+
+Description
+
+
+This value sets the maximum size of a data packet that can be transmitted via the NetNOW! system.  This value cannot 
+be larger than 512 bytes.  If your application is transmitting small packets, you may wish to decrease this value 
+as it lowers the amount of real mode memory allocated by the system.  If you alter this value you must recompile 
+the NetNOW! libraries.
+
+
+
+
+System Data Structures
+
+
+
+The following data structure is used to hold the network address when adding and deleting nodes from the system.  
+You may find out the network address of your machine by using the hmiNETNOWGetNetworkAddr  function.
+
+
+typedef	union
+
+		
+{
+
+			
+_IPX_LOCAL_TARGET		sIPX;
+			
+_NETBIOS_LOCAL_TARGET	sNETBIOS;
+
+		
+} _NETNOW_NODE_ADDR;
+
+
+
+Structure Element Description
+
+
+sIPX
+
+
+This element contains the IPX specific node address.  It consists of the local target address as well as the Internetwork 
+address including bridge information.
+
+
+
+sNETBIOS
+
+
+This element contains the NetBIOS specific node address.  It is derived from the node address that is burned into 
+each LAN card with 10 trailing spaces to form a complete NetBIOS network name.
+
+Example Program
+
+
+The following example program demonstrates how to initialize the NetNOW! system, locate other nodes on the network, 
+and send and receive messages between computers.
+
+
+/****************************************************************************
+
+*
+
+*  File              : test.c
+
+*  Date Created      : 1/3/95
+
+*  Description       : test program for the ipx driver
+
+*
+
+*  Programmer(s)     : Nick Skrepetos
+
+*  Last Modification : 2/2/95 - 10:3:15 AM
+
+*  Additional Notes  :
+
+*
+
+*****************************************************************************
+
+*            Copyright (c) 1994,  HMI, Inc.  All Rights Reserved            *
+
+****************************************************************************/
+
+
+#include <stdio.h>
+
+#include <stdlib.h>
+
+#include <string.h>
+
+#include "hmistd.h"
+
+#include "netnow.h"
+
+#include "vdata.h"
+
+#include "vchat.h"
+
+
+// local functions
+
+VOID	hmiNetworkDemo          ( VOID );
+
+
+/****************************************************************************
+
+*
+
+*  Syntax
+
+*
+
+*     VOID	main( WORD wArgc, PSTR szArgv[] )
+
+*
+
+*  Description
+
+*
+
+*        main function for testing ipx drivers
+
+*
+
+*  Parameters
+
+*
+
+*        Type           Description
+
+*        --------------------------
+
+*        wArgc          Argument count
+
+*        szArgv         Arguments
+
+*
+
+*  Return
+
+*
+
+*     nothing
+
+*
+
+****************************************************************************/
+
+VOID	main( WORD wArgc, PSTR szArgv[] )
+	
+{
+
+
+The function hmiVCHATInit  reads the ‘netnow.ini’ configuration file to retrieve settings describing the voice chat 
+system and the number of nodes the application would like to have participate.  It is not required that you call 
+this function, it is provided simply to externalize some of the network parameters.
+
+      
+// read the .ini file
+      
+if ( !hmiVCHATInit() )
+      
+{
+         
+// print error
+         
+printf( "ERROR: Could not read NETNOW.INI\n" );
+
+         
+// exit
+         
+exit( 1 );
+      
+}
+
+      
+// display message
+      
+printf( "NetNOW! system initialization started.\n" );
+
+
+
+The hmiNETNOWInitSystem function attempts to locate what type of network is present in the system.   The value of 
+‘8’ is being passed to this function to indicate that the maximum number of nodes to be supported is 8.  This value 
+may be any value up to the value defined in netnow.h by the _NETNOW_MAX_NODES equate.
+
+      
+// check if NetNOW! is present
+      
+if ( hmiNETNOWInitSystem( 8 ) != _NETNOW_NO_ERROR )
+      
+{
+         
+// print error
+         
+printf( "ERROR: NetNOW! could not locate IPX or NetBIOS!\n" );
+
+         
+// error
+         
+exit( 1 );
+      
+}
+
+      
+// display
+      
+printf( "\nNetNOW! system initialized!\n\n" );
+
+
+
+
+The hmiNETNOWGetNetworkType function queries the NetNOW! system to determine what type of network is running.   It 
+is not required that the application call this function, it is used here only for demonstration and debugging purposes.
+
+      
+// check for information display
+      
+if ( wNETInfoFlag )
+         
+switch( hmiNETNOWGetNetworkType() )
+         
+{
+            
+case  _NETNOW_IPX    :
+                                    
+// display type
+                                    
+printf( "Network is using a IPX based protocol.\n" );
+                                    
+break;
+            
+case  _NETNOW_NETBIOS:
+                                    
+// display type
+                                    
+printf( "Network is using a NetBIOS based protocol.\n" );
+                                    
+break;
+         
+}
+
+
+
+The hmiNETNOWFindNodes function attempts to locate the other nodes on the system.  The ‘wNETNodes’ variable is filled 
+in by the hmiVCHATInit function and indicates the number of nodes the system should locate before proceeding.
+
+      
+// find nodes
+      
+printf( "\nAttempting to Locate %d Nodes.\n", wNETNodes );
+
+      
+// find the requested nodes
+      
+if ( hmiNETNOWFindNodes( wNETNodes ) )
+         
+printf( "\n\nLocated all requested nodes!\n" );
+      
+else
+      
+{
+         
+printf( "\n\nERROR: could not locate the requested nodes.\n" );
+      
+}
+
+
+
+At this point, all nodes should have been located.   The application should query the number of active nodes to check 
+if all of the nodes were located.  The hmiNETNOWGetActiveNodes function returns the number of nodes in the internal 
+node list.
+
+      
+// network demo
+      
+if ( hmiNETNOWGetActiveNodes() > 1 )
+         
+hmiNetworkDemo();
+
+
+
+The NetNOW! function hmiNETNOWUnInitSystem should always be called before exiting the application to insure that 
+all pending network events have been canceled.
+
+      
+// uninit system
+      
+hmiNETNOWUnInitSystem();
+	
+}
+
+
+
+
+The following function demonstrates sending network data messages to another node and receiving messages from a remote 
+node.
+
+
+/****************************************************************************
+
+*
+
+*  Syntax
+
+*
+
+*     VOID	hmiNetworkDemo( VOID )
+
+*
+
+*  Description
+
+*
+
+*     simple example of sending messages from one machine to another
+
+*
+
+*  Parameters
+
+*
+
+*     none
+
+*
+
+*  Return
+
+*
+
+*     nothing
+
+*
+
+****************************************************************************/
+
+VOID	hmiNetworkDemo( VOID )
+
+{
+      
+WORD                 wExitFlag;
+      
+PSTR                 pPacket;
+      
+WORD                 wActiveNodes;
+      
+WORD                 wConsoleNode;
+      
+_XFER_BLOCK_HEADER   sBlock;
+      
+BYTE                 szMessage[ 128 ];
+
+      
+// initialize exit flag
+      
+wExitFlag      =  _FALSE;
+
+
+
+At this point, the code retrieves the number of active nodes simply to display the information to the user indicating 
+the number of nodes active.
+
+      
+// get active nodes
+      
+wActiveNodes   =  hmiNETNOWGetActiveNodes();
+
+
+
+The application should always call the hmiNETNOWGetConsoleNode function to retrieve the local node number to avoid 
+sending messages to the local computer and thus wasting valuable CPU time.
+
+      
+// get console node
+      
+wConsoleNode   =  hmiNETNOWGetConsoleNode();
+
+      
+// display banner
+      
+printf( "\n\n*********  NetNOW! Demonstration *********\n\n" );
+
+      
+// display console node
+      
+printf( "Number of Active Nodes       : %d\n", wActiveNodes );
+      
+printf( "Node Number of this Computer : %d\n", wConsoleNode );
+
+      
+// display message
+      
+printf( "\n(S)end to station, (Q)uit\n" );
+
+      
+// wait for exit flag
+      
+while( !wExitFlag )
+      
+{
+
+
+
+The application now queries the system to determine if a data packet has arrived.  The hmiNETNOWGetHeader function 
+does not retrieve the actual data at this point, just the application specific header.   The program may then examine 
+the data header to determine what type of data packet it is.  If the application is only utilizing one type of data 
+packet, the hmiNETNOWGetData function may be used instead as it retrieves the header and data packet in one function 
+call.
+
+         
+// check if we have data
+         
+if ( hmiNETNOWGetHeader( (PSTR)&sBlock, sizeof( _XFER_BLOCK_HEADER ), 
+					
+&pPacket ) )
+         
+{
+
+
+
+At this point, the application has retrieved a data packet header.   In our example transfer header, the data block 
+type is stored in the ‘wType’ element of the header.
+
+            
+// check header type
+            
+switch( sBlock.wType )
+            
+{
+
+
+
+If the data block type is a data block, the application can retrieve the actual packet data by calling the hmiNETNOWGetBlock 
+function.
+
+               
+case  _XFER_BLOCK_DATA  :
+                                          
+// get data block
+                                          
+hmiNETNOWGetBlock( pPacket, szMessage,sBlock.wLength );
+
+                                          
+// print message
+                                          
+printf( "%s\n", szMessage );
+                                          
+break;
+
+
+
+The application must post a listen command if the data packet is not retrieved so that the system can reuse the data 
+packet slot in the receive queue.   If  the application does not issue the hmiNETNOWPostListen command, the receive 
+queue may not be able to receive any more data packets.   The listen command need only be issued if the data block 
+is not retrieved via the hmiNETNOWGetBlock or hmiNETNOWGetData functions.
+
+				
+default	  :
+					     
+// post listen
+                                          
+hmiNETNOWPostListen();
+					     
+break;
+
+            
+}
+
+	  
+}
+
+         
+// check for key press
+         
+if ( kbhit() )
+            
+switch( tolower( getch() ) )
+            
+{
+
+
+
+In this example the application sets up the transfer header type as a data block, retrieves the message to be transmitted 
+and sets the length of the data block in the application specific header.
+
+               
+case  's'   :
+                              
+// set up header type
+                              
+sBlock.wType   =  _XFER_BLOCK_DATA;
+
+                              
+// display
+                              
+printf( "Enter Message : \n" );
+
+                              
+// get message
+                              
+gets( szMessage );
+
+                              
+// set block length
+                              
+sBlock.wLength =  strlen( szMessage ) + 1;
+
+
+
+The application may now send out the data packet to the data send queue.  The application should check to make sure 
+that the data packet was sent to the data send queue.  The hmiNETNOWSendData function will return ‘_TRUE’ when the 
+data has been sent.  The only time the function will return ‘_FALSE’ is when the send queue is full and data packets 
+are waiting to be sent out.
+
+                              
+// send data
+                              
+while( !hmiNETNOWSendData( (PSTR)&sBlock, 
+					
+sizeof( _XFER_BLOCK_HEADER ), (PSTR)szMessage,
+                                      
+sBlock.wLength, wConsoleNode ^ 0x01 ) );
+                              
+break;
+               
+case  0x1b  :
+               
+case  'q'   :
+                              
+// set exit flag
+                              
+wExitFlag   =  _TRUE;
+                              
+break;
+            
+}
+      
+}
+
+}
+
+
+
+Common Questions
+
+
+The following section contains many common questions accompanied by the answers to those questions.
+
+
+  
+How do I know what type of network protocol my network is using?
+
+
+With the NetNOW! system you do not need to know what protocol your network is using as the system automatically detects 
+the presence of both IPX and NetBIOS.  Your application may query the NetNOW! system with the hmiNETNOWGetNetworkType 
+function to determine what type of network you are using.
+
+
+  
+Is there a limit to the number of nodes that can be active at one time?
+
+
+The maximum number of nodes that can be active at any one time is defined in the netnow.h header file and by the 
+number you pass into the hmiNETNOWInitSystem function when you initialize the system.  The NetNOW! system, as shipped, 
+can accommodate up to 16 players/nodes at one time.  If you wish to increase this limit, you must change the _NETNOW_MAX_NODES 
+define in the netnow.h header file and recompile the NetNOW! library.  Note that increasing this limit will use more 
+real mode memory.
+
+
+  
+What is the maximum size of a data packet that can be received or transmitted?
+
+
+The maximum size of a data packet for the NetNOW! system is 512 bytes including the packet header.  This limit is 
+imposed because of the IPX and NetBIOS Datagram protocols.
+
+
+  
+Why does the system have to allocate real mode memory?
+
+
+Both the IPX and NetBIOS system are designed to handle memory addressing within the first megabyte of memory therefor 
+all data structures and packet data must be copied down into the real mode memory so that the IPX/NetBIOS system 
+can access it.
+
+
+
+
+
+
+
+
+

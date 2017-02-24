@@ -1,0 +1,85 @@
+;***************************************************************************
+;
+;	This is the header file for DataRout.Asm.
+;
+;***************************************************************************
+
+
+
+	;	EXPORT				
+		EXPORT	Date3_InString,Far
+		EXPORT	Inc_Stamina,Far
+		EXPORT	IncMoraleQ,Far
+		EXPORT	Dec_Stamina,Far
+
+		EXPORT	MakeIntoYouth,FAR
+		EXPORT	Inc_Stamina,FAR
+		EXPORT	MakeANewManager,FAR
+		EXPORT	DecPlayerSkill,FAR
+		EXPORT	IncPlayerSkill,FAR
+		EXPORT	DecMoraleQ,FAR
+		EXPORT	IncMoraleQ,FAR
+		EXPORT	ChangeManaRate,FAR
+		EXPORT	FindLeagPosAddr,FAR
+		EXPORT	AllignTextDigit,FAR
+		EXPORT	GetGDMA_Ratings,FAR
+		EXPORT	FindMatchRef,FAR		
+		EXPORT	PutInPercentage,FAR
+		EXPORT	FindClubData,FAR
+		EXPORT	FindPlayerData,FAR
+		EXPORT	ManagerOverview,FAR
+		EXPORT	Date9_InString,FAR
+		EXPORT	IsD0AnyManaTeam,FAR
+		EXPORT	IsD0MTeam_Addr,FAR
+		EXPORT	FindManaAddrNum,FAR
+		EXPORT	PrintPortrait,FAR
+		EXPORT	Print_TimeTable,FAR
+		EXPORT	TimeTab_League,FAR
+		EXPORT	Sort_Digit2RNum,FAR
+		EXPORT	Centre_String,FAR
+		EXPORT	Money_9Text,FAR
+		EXPORT	Make_Capital,FAR
+		EXPORT	Shadow_5,FAR
+		EXPORT	Shadow_57,FAR
+		EXPORT	Shadow_7,FAR
+		EXPORT	FindLeagAndPos,FAR
+		EXPORT	FindJustLeague,FAR
+		EXPORT	PutInNMD_Text,FAR
+		EXPORT	GetTeamRating,FAR
+		EXPORT	FindPlayerType,FAR
+		EXPORT	GetPlayersWage,FAR
+		EXPORT	GetPlayersSkill,FAR
+		EXPORT	PickATeam,FAR
+		EXPORT	PickPlayers,FAR
+		EXPORT	CountMarkable,FAR
+		EXPORT	CountPlayers,FAR
+		EXPORT	CountPlayable,FAR
+		EXPORT	SortAreaCrowd,FAR
+		EXPORT	ChangeDireRate,FAR
+		EXPORT	ChangeSuppRate,FAR
+		EXPORT	Divide_Long,FAR
+		EXPORT	Multiply_Long,FAR
+
+		EXPORT	Youth_Div_Tab,Word
+		EXPORT	NMD_LeagueAddr,Word
+		EXPORT	Youth_Type_Tab,Word
+		EXPORT	CountPlayerNums,Byte
+		EXPORT	ShadowStringJSR,Word
+		EXPORT	Player1Ratings,Word
+		EXPORT	TeamRatings,Word,Byte
+		EXPORT	Ratings_GDMA,Word,Byte
+		EXPORT	CheckPick_GDMA,Byte
+		EXPORT	CheckPickTotals,Word
+		EXPORT	PickTeamPlayers,Word
+		EXPORT	WageMuluTab,Word
+		EXPORT	DivisionMuluTab,Word
+		EXPORT	TimeTable_Team,Word
+		EXPORT	TimeTable_Div,Word
+		EXPORT	TimeTable_Page,Word
+		EXPORT	TimeTable_Week,Word
+		EXPORT	Manager_League,Byte
+		EXPORT	Manager_DayTab,Byte
+		EXPORT	ManagerWeekNum,Word
+
+
+

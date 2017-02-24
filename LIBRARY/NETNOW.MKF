@@ -1,0 +1,43 @@
+#****************************************************************************
+#
+#  Project           : netnow.mkf
+#
+#  Date              :
+#
+#  Last Modification : 2/16/95 - 9:27:33 AM
+#
+#****************************************************************************
+
+
+# define paths
+src = .
+inc = .
+obj = .
+exe = .
+lib = .
+
+
+# define compiler/assembler/linker variables
+c = wcl386
+cf = -zp4 -4s -c -s -d2 -mf -od -I$(inc) /fo$@ 
+
+a  = \borlandc\bin\tasm
+af = -zi -mx
+
+# define intrinsic rules
+.c.obj:
+	$(c) $(cf) $<
+
+.asm.obj:
+	$(a) $(af) $<, $@;
+
+# define all library modules
+modules = \
+      $(obj)\test.obj
+
+# reference all makes
+all: $(exe)\test.exe
+
+# make 
+$(exe)\test.exe:	$(modules)
+	wlink  @netnow.lnk

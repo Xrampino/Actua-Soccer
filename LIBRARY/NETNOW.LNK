@@ -1,0 +1,6 @@
+debug all
+option dosseg
+system dos4g
+name test.exe
+file test.obj
+library netnows.lib

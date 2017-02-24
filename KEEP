@@ -1,0 +1,162 @@
+
+
+
+
+EURO '96
+(C) Gremlin Interactive 1995,96
+þ Version: 1.0         15/12/1995
+þ Running DOS version.
+þ Video mode initialised.
+þ Attempting NETWORK game.
+þ Outputting VERBOSE information.
+þ Memory check: 6397952
+þ Keyboard 1 initialised.
+þ Keyboard 2 initialised.
+þ Mouse Driver found and initialised.
+þ Network initialised okay.
+þ Data Offset file loaded.
+þ Memory allocated for Text buffer.
+þ Memory check: 6369280
+þ 24576 Bytes allocated for script file text.
+þ 20785 Bytes used for script file text.
+þ Memory allocated for Pseudo buffer.
+þ Memory check: 6057984
+þ Memory allocated for Background buffer.
+þ Memory check: 5746688
+þ Memory allocated for Texture Pages.
+þ Memory check: 3284992
+þ Calling Set_Comm_Type with comm type: 0
+þ Calling Start_Network_Game.
+
+  DEALLOCATING MEMORY BEFORE RUNNING MATCH.
+
+þ Memory check: 5746688
+þ Memory for Texture Pages DeAllocated.
+þ Memory check: 5746688
+þ Memory check: 6057984
+þ Memory for Background buffer DeAllocated.
+þ Memory check: 6057984
+þ Memory check: 6369280
+þ Memory for Pseudo buffer DeAllocated.
+þ Memory check: 6369280
+    User 0	BULGARIA
+
+  MATCH INTERFACE DATA:
+
+    Home Team:  BULGARIA
+    Away Team:  CROATIA
+
+plyr 0	(0)  pace: 49  power: 52  cntrl: 40  flair: 64  vision: 62  accry: 67  stam: 44  disc: 51  fit: 99
+plyr 1	(1)  pace: 54  power: 52  cntrl: 50  flair: 50  vision: 65  accry: 65  stam: 47  disc: 41  fit: 99
+plyr 2	(2)  pace: 47  power: 65  cntrl: 47  flair: 53  vision: 48  accry: 52  stam: 41  disc: 69  fit: 99
+plyr 3	(3)  pace: 52  power: 62  cntrl: 44  flair: 54  vision: 40  accry: 54  stam: 47  disc: 70  fit: 99
+plyr 4	(4)  pace: 56  power: 77  cntrl: 49  flair: 42  vision: 43  accry: 43  stam: 50  disc: 63  fit: 99
+plyr 5	(5)  pace: 45  power: 56  cntrl: 55  flair: 40  vision: 68  accry: 64  stam: 48  disc: 47  fit: 99
+plyr 6	(6)  pace: 59  power: 49  cntrl: 52  flair: 53  vision: 61  accry: 69  stam: 40  disc: 50  fit: 99
+plyr 7	(7)  pace: 60  power: 57  cntrl: 55  flair: 60  vision: 69  accry: 70  stam: 49  disc: 55  fit: 99
+plyr 8	(8)  pace: 75  power: 83  cntrl: 69  flair: 72  vision: 75  accry: 86  stam: 70  disc: 40  fit: 99
+plyr 9	(9)  pace: 50  power: 65  cntrl: 55  flair: 56  vision: 60  accry: 70  stam: 50  disc: 44  fit: 99
+plyr 10	(10)  pace: 57  power: 62  cntrl: 48  flair: 57  vision: 59  accry: 66  stam: 47  disc: 27  fit: 99
+plyr 11	(11)  pace: 35  power: 47  cntrl: 44  flair: 56  vision: 51  accry: 58  stam: 45  disc: 57  fit: 99
+plyr 12	(12)  pace: 47  power: 60  cntrl: 55  flair: 51  vision: 50  accry: 62  stam: 63  disc: 15  fit: 99
+plyr 13	(13)  pace: 51  power: 65  cntrl: 40  flair: 35  vision: 50  accry: 43  stam: 64  disc: 71  fit: 99
+plyr 14	(14)  pace: 46  power: 39  cntrl: 46  flair: 39  vision: 66  accry: 71  stam: 44  disc: 49  fit: 99
+plyr 15	(15)  pace: 57  power: 69  cntrl: 36  flair: 39  vision: 49  accry: 70  stam: 55  disc: 25  fit: 99
+plyr 16	(16)  pace: 55  power: 67  cntrl: 41  flair: 33  vision: 47  accry: 55  stam: 42  disc: 65  fit: 99
+plyr 17	(17)  pace: 60  power: 63  cntrl: 51  flair: 55  vision: 50  accry: 65  stam: 49  disc: 25  fit: 99
+plyr 18	(18)  pace: 42  power: 69  cntrl: 49  flair: 59  vision: 53  accry: 71  stam: 51  disc: 29  fit: 99
+plyr 19	(19)  pace: 52  power: 59  cntrl: 50  flair: 58  vision: 65  accry: 67  stam: 53  disc: 20  fit: 99
+    Number Of Users Playing Next Match:  1
+    User 0	KEYBOARD ONE
+
+  MATCH AND ENVIRONMENT SETTINGS.
+
+    Bookings:		OFF
+    Freekicks:		OFF
+Free memory = 6053888
+Preparing memory areas...
+Motion capture frames: 3782
+Reading data files...
+Remapping textures...
+Preparing segment selectors...
+Free memory = 2666496
+Making colour filters...
+Intialising data objects...
+Preparing miscellaneous data...
+Geting VESA information...
+
+
+
+  ALLOCATING MEMORY AFTER RUNNING MATCH AND RETURNING TO FRONTEND.
+
+þ Memory allocated for Pseudo buffer.
+þ Memory check: 3026944
+þ Memory allocated for Background buffer.
+þ Memory check: 2957312
+þ Memory allocated for Texture Pages.
+þ Memory check: 2957312
+þ Calling Set_Comm_Type with comm type: 0
+þ Calling Start_Network_Game.
+
+  DEALLOCATING MEMORY BEFORE RUNNING MATCH.
+
+þ Memory check: 2957312
+þ Memory for Texture Pages DeAllocated.
+þ Memory check: 2957312
+þ Memory check: 3026944
+þ Memory for Background buffer DeAllocated.
+þ Memory check: 3026944
+þ Memory check: 3338240
+þ Memory for Pseudo buffer DeAllocated.
+þ Memory check: 3338240
+    User 0	BULGARIA
+
+  MATCH INTERFACE DATA:
+
+    Home Team:  BULGARIA
+    Away Team:  CROATIA
+
+plyr 0	(0)  pace: 49  power: 52  cntrl: 40  flair: 64  vision: 62  accry: 67  stam: 44  disc: 51  fit: 99
+plyr 1	(1)  pace: 54  power: 52  cntrl: 50  flair: 50  vision: 65  accry: 65  stam: 47  disc: 41  fit: 99
+plyr 2	(2)  pace: 47  power: 65  cntrl: 47  flair: 53  vision: 48  accry: 52  stam: 41  disc: 69  fit: 99
+plyr 3	(3)  pace: 52  power: 62  cntrl: 44  flair: 54  vision: 40  accry: 54  stam: 47  disc: 70  fit: 99
+plyr 4	(4)  pace: 56  power: 77  cntrl: 49  flair: 42  vision: 43  accry: 43  stam: 50  disc: 63  fit: 99
+plyr 5	(5)  pace: 45  power: 56  cntrl: 55  flair: 40  vision: 68  accry: 64  stam: 48  disc: 47  fit: 99
+plyr 6	(6)  pace: 59  power: 49  cntrl: 52  flair: 53  vision: 61  accry: 69  stam: 40  disc: 50  fit: 99
+plyr 7	(7)  pace: 60  power: 57  cntrl: 55  flair: 60  vision: 69  accry: 70  stam: 49  disc: 55  fit: 99
+plyr 8	(8)  pace: 75  power: 83  cntrl: 69  flair: 72  vision: 75  accry: 86  stam: 70  disc: 40  fit: 99
+plyr 9	(9)  pace: 50  power: 65  cntrl: 55  flair: 56  vision: 60  accry: 70  stam: 50  disc: 44  fit: 99
+plyr 10	(10)  pace: 57  power: 62  cntrl: 48  flair: 57  vision: 59  accry: 66  stam: 47  disc: 27  fit: 99
+plyr 11	(11)  pace: 35  power: 47  cntrl: 44  flair: 56  vision: 51  accry: 58  stam: 45  disc: 57  fit: 99
+plyr 12	(12)  pace: 47  power: 60  cntrl: 55  flair: 51  vision: 50  accry: 62  stam: 63  disc: 15  fit: 99
+plyr 13	(13)  pace: 51  power: 65  cntrl: 40  flair: 35  vision: 50  accry: 43  stam: 64  disc: 71  fit: 99
+plyr 14	(14)  pace: 46  power: 39  cntrl: 46  flair: 39  vision: 66  accry: 71  stam: 44  disc: 49  fit: 99
+plyr 15	(15)  pace: 57  power: 69  cntrl: 36  flair: 39  vision: 49  accry: 70  stam: 55  disc: 25  fit: 99
+plyr 16	(16)  pace: 55  power: 67  cntrl: 41  flair: 33  vision: 47  accry: 55  stam: 42  disc: 65  fit: 99
+plyr 17	(17)  pace: 60  power: 63  cntrl: 51  flair: 55  vision: 50  accry: 65  stam: 49  disc: 25  fit: 99
+plyr 18	(18)  pace: 42  power: 69  cntrl: 49  flair: 59  vision: 53  accry: 71  stam: 51  disc: 29  fit: 99
+plyr 19	(19)  pace: 52  power: 59  cntrl: 50  flair: 58  vision: 65  accry: 67  stam: 53  disc: 20  fit: 99
+    Number Of Users Playing Next Match:  1
+    User 0	KEYBOARD ONE
+
+  MATCH AND ENVIRONMENT SETTINGS.
+
+    Bookings:		OFF
+    Freekicks:		OFF
+Free memory = 3022848
+Preparing memory areas...
+Motion capture frames: 3782
+Reading data files...
+DOS/4GW error (2001): exception 0Eh (page fault) at 70:00000E64
+TSF32: prev_tsf32 4FAC
+SS        98 DS        20 ES        D0 FS         0 GS       168
+EAX     2000 EBX     21F6 ECX      256 EDX     2000
+ESI   A66A14 EDI     1B54 EBP   594E52 ESP     4E4C
+CS:IP   70:00000E64 ID 0E COD        2 FLG    13016
+CS=   70, USE16, byte granular, limit     596F, base   41C160, acc 9B
+SS=   98, USE16, byte granular, limit     7CFF, base   453DF0, acc 93
+DS=   20, USE16, byte granular, limit     FFFF, base    36140, acc 93
+ES=   D0, USE16, byte granular, limit     FFFF, base   A774AC, acc 93
+FS=    0, USE16, byte granular, limit        0, base       14, acc  0
+GS=  168, USE32, page granular, limit FFFFFFFF, base        0, acc CF93
+CR0: PG:1 ET:1 TS:0 EM:0 MP:0 PE:1   CR2: A79000 CR3: 39000

@@ -1,0 +1,31 @@
+/* The Data Compiler                                        */
+/* (c)1995 Gremlin Interactive, coded in C by Philip Rankin */
+/* DEFINES Generated from the parameter file:FAP.PRM        */
+
+#define	FAP_VIDI        	0
+#define	COL_VIDI        	8
+#define	FAP_VR          	16
+#define	COL_VR          	24
+#define	FAP_XET         	32
+#define	COL_XET         	40
+#define	FAP_XFOU        	48
+#define	COL_XFOU        	56
+#define	FAP_XFT         	64
+#define	COL_XFT         	72
+#define	FAP_XHT         	80
+#define	COL_XHT         	88
+#define	FAP_XPEN        	96
+#define	COL_XPEN        	104
+#define	FAP_XGOA        	112
+#define	COL_XGOA        	120
+#define	FAP_BOOST       	128
+#define	COL_BOOST       	136
+#define	FAP_XWNF1       	144
+#define	FAP_XWNF2       	152
+#define	COL_XWNF        	160
+#define	FAP_XWNG1       	168
+#define	FAP_XWNG2       	176
+#define	COL_XWNG        	184
+#define	FAP_XWNS1       	192
+#define	FAP_XWNS2       	200
+#define	COL_XWNS        	208

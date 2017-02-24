@@ -1,0 +1,123 @@
+File 3DENG.C:
+162     extern "C" network_on;                  // Network game
+168     extern network_on;                      // Network game
+8365            if (setup.detail.stadia||network_on) 
+8367                    if (network_on)
+File EURO_NET.C:
+14      extern  int     network_on;
+27                              printf  ("þ Network cannot be initialised.\n");
+35                              printf  ("þ Network initialised okay.\n");
+57                      for ( i=0; i < network_on; i++ )
+62                      return( network_on-Starts );
+File INTRONET.C:
+16      #define NETWORK                         4
+43      //º  Checks to see if network is on and if so allows NETWORK option to appear as a competition type.                             º
+50                              return  (NETWORK-1);
+52                              return  (NETWORK);
+64                      if (netflag==NETWORK)
+71      //º  Sets up variables indicating that network game is to begin....                                                              º
+75      void    Init_Network_Game()
+77              Start_Network_Game();
+81      //      printf("Initialises Team_A, Team_B, TeamChoice & PlayerChoice and starts network\n");
+86      //º  Tells network which two countries are to take part in netgame...                                                            º
+134     //º  Polls all network machines....                                                                                              º
+138     //int Polling_Network()
+140     //                      return  (Poll_Network());
+File NETWORK.C:
+12      #include "network.h"
+31      int netsetup_on;                // In network setup
+32      int network_on;         // Network on flag / No of network players
+33      int onetwork_on;
+34      short   wConsoleNode;   // Network ID for machine
+35      short master;                   // Network ID for master
+57      // Internal network vars
+1051    unsigned int NetworkHandle; // Handle for this timer routine
+1068                            if (netsetup_on)                                        // If in network setup...
+1070                                    if (network_on)
+1075                                    if (network_on)                                 // If a network game...
+1079                                                    if ( start_multiple==network_on-1 )                                     // If all data sent last frame
+1091                                                    if (active_nodes==network_on)                                                           // Only start transmitting when ready
+1093                                                            if (start_multiple!=network_on-1 || !paused)            // Stop sending if paused, and block fully transmitted
+1096                                                                    if ( start_multiple==network_on-1 )                     // If block fully transmitted, move to next
+1109                                                    for (i=0; i<network_on; i++)
+1118                                    else                            // If not a network game...
+1155            if (network_on)
+1203            if (network_on)
+1224                                            if (!net_quit) active_nodes=network_on;
+1260            if (network_on)
+1271                    for (i=0;i<network_on;i++)
+1288                    if (sent) start_multiple=network_on-1;
+1301            if (network_on)
+1323            if (network_on)
+1348            if (network_on)
+1357                    for (i=0;i<network_on;i++)
+1374            if (network_on)
+1383                    for (i=0;i<network_on;i++)
+1400            if (network_on)
+1410                            for (i=0;i<network_on;i++)
+1427            if (network_on)
+1444            if (network_on)
+1448                    for (i=0;i<network_on;i++)
+1466            if (network_on)
+1491            for (i=0;i<network_on;i++)
+1516    //      wNETNodes=network_on;
+1535                                                            address[network_on]=info.address;
+1537                                                            Teams[network_on]=info.Team;
+1538                                                            Players[network_on]=info.Player;
+1539                                                            network_on++;
+1624                    network_on=hmiNETNOWGetActiveNodes();           // Get active nodes
+1627    //              num_of_users=network_on;
+1628                    start_multiple=network_on-1;
+1657            for (i=0;i<network_on;i++)
+1671            if (network_on)
+1680                    for (i=0;i<network_on;i++)
+1692            if (network_on)
+1705                    for (i=0;i<network_on;i++)
+1716                    if (!network_on)
+1736            if (network_on && slave_pause && wConsoleNode==master)
+1748    /* NETWORK SETUP */
+1751    int Initialise_Network()
+1754    //      active_nodes=1;         // if no network 1 player.
+1758            if (network_on)
+1762                    active_nodes=0;         //reset if network on.
+1764    //              puts ("INTIALIZING NETWORK.");
+1769                            network_on=FALSE;
+1779                                    switch( hmiNETNOWGetNetworkType() )
+1783    //                                              puts( "Network is using a IPX based protocol." );
+1787    //                                              puts( "Network is using a NetBIOS based protocol." );
+1795                            hmiNETNOWGetNetworkAddr(&laddress);             //read this nodes address.
+1800                            network_on=onetwork_on=1;
+1807    void    close_network()
+1812            if (network_on)
+1814    //              puts("Resetting network.");
+1819    //              puts("Network removed.");
+1822            network_on=FALSE;
+1829    int Poll_Network()
+1834    //      if (keys[0x13]) {close_network();exit(1);}
+1835            if (NetDone<network_on)
+1838                    if (onetwork_on!=network_on)
+1840                            for (i=onetwork_on;i<network_on;i++)
+1842                            onetwork_on=network_on;
+1860    int Start_Network_Game()
+1872            network_on=netsetup_on=TRUE;
+1874            return (Initialise_Network());
+1878    void Network_Play_Ready()
+1880            if (network_on) 
+1883                    while (active_nodes<network_on);        // escape key?
+1888    void Quit_Network_Play()
+1890            if (network_on)
+1899    void End_Network_Game()
+1901            if (network_on)
+1902                    close_network();
+1916            // The variable network_on is the number of players currently logged on to the game, and the arrays
+1917            // Teams[] and Players[] give the current selections of all the players from 0 to network_on-1, (Note, which is
+1921            if (Start_Network_Game()<0)     // Initialises Team_A, Team_B, TeamChoice & PlayerChoice and starts network
+1942    Poll_Network();
+1986    Poll_Network();
+1990                    for (i=0;i<network_on;i++)
+1992            } while ((Starts<network_on || Starts<=1) && tick<stick+10*20); // Must be more than one player!
+1998                    while ((Seed=Poll_Network())<0);  // (Add escape key?)
+2002                    for (i=0;i<network_on;i++)
+2006                    // Now set Andy's data structures from the network variables
+2012    //              for (i=0;i<network_on;i++)
+2018                    End_Network_Game();     // Cleans up network stuff

@@ -1,0 +1,21 @@
+#info.lnk  (LINKER DIRECTIVE FILE)
+NAME kit_pal.exe
+OPTION MAP
+#OPTION QUIET
+DEBUG ALL
+FILE    kit_pal.obj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
